@@ -1,0 +1,7 @@
+C:\Users\Pipe Feanco\Desktop\Practica mindugar\ProyectoMantenimiento\WindowsViews\DaoClases\bin\Debug\DaoClases.dll
+C:\Users\Pipe Feanco\Desktop\Practica mindugar\ProyectoMantenimiento\WindowsViews\DaoClases\bin\Debug\DaoClases.pdb
+C:\Users\Pipe Feanco\Desktop\Practica mindugar\ProyectoMantenimiento\WindowsViews\DaoClases\obj\Debug\DaoClases.csprojResolveAssemblyReference.cache
+C:\Users\Pipe Feanco\Desktop\Practica mindugar\ProyectoMantenimiento\WindowsViews\DaoClases\obj\Debug\DaoClases.dll
+C:\Users\Pipe Feanco\Desktop\Practica mindugar\ProyectoMantenimiento\WindowsViews\DaoClases\obj\Debug\DaoClases.pdb
+C:\Users\Pipe Feanco\Desktop\Practica mindugar\ProyectoMantenimiento\WindowsViews\DaoClases\bin\Debug\WindowsViews.exe
+C:\Users\Pipe Feanco\Desktop\Practica mindugar\ProyectoMantenimiento\WindowsViews\DaoClases\bin\Debug\WindowsViews.pdb

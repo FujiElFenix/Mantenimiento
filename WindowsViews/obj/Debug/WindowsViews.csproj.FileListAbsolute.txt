@@ -1,0 +1,12 @@
+C:\Users\Pipe Feanco\Desktop\Practica mindugar\ProyectoMantenimiento\WindowsViews\WindowsViews\bin\Debug\WindowsViews.exe.config
+C:\Users\Pipe Feanco\Desktop\Practica mindugar\ProyectoMantenimiento\WindowsViews\WindowsViews\obj\Debug\WindowsViews.MenuPrincipal.resources
+C:\Users\Pipe Feanco\Desktop\Practica mindugar\ProyectoMantenimiento\WindowsViews\WindowsViews\obj\Debug\WindowsViews.Properties.Resources.resources
+C:\Users\Pipe Feanco\Desktop\Practica mindugar\ProyectoMantenimiento\WindowsViews\WindowsViews\obj\Debug\WindowsViews.csproj.GenerateResource.Cache
+C:\Users\Pipe Feanco\Desktop\Practica mindugar\ProyectoMantenimiento\WindowsViews\WindowsViews\bin\Debug\WindowsViews.exe
+C:\Users\Pipe Feanco\Desktop\Practica mindugar\ProyectoMantenimiento\WindowsViews\WindowsViews\bin\Debug\WindowsViews.pdb
+C:\Users\Pipe Feanco\Desktop\Practica mindugar\ProyectoMantenimiento\WindowsViews\WindowsViews\obj\Debug\WindowsViews.exe
+C:\Users\Pipe Feanco\Desktop\Practica mindugar\ProyectoMantenimiento\WindowsViews\WindowsViews\obj\Debug\WindowsViews.pdb
+C:\Users\Pipe Feanco\Desktop\Practica mindugar\ProyectoMantenimiento\WindowsViews\WindowsViews\obj\Debug\WindowsViews.csprojResolveAssemblyReference.cache
+C:\Users\Pipe Feanco\Desktop\Practica mindugar\ProyectoMantenimiento\WindowsViews\WindowsViews\obj\Debug\WindowsViews.Login.resources
+C:\Users\Pipe Feanco\Desktop\Practica mindugar\ProyectoMantenimiento\WindowsViews\WindowsViews\bin\Debug\EntityFramework.dll
+C:\Users\Pipe Feanco\Desktop\Practica mindugar\ProyectoMantenimiento\WindowsViews\WindowsViews\bin\Debug\EntityFramework.xml
