@@ -30,19 +30,20 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuPrincipal));
             this.MenuVertical = new System.Windows.Forms.Panel();
+            this.BtnGestionTrasportadores = new System.Windows.Forms.Button();
+            this.BtnGestionVehiculos = new System.Windows.Forms.Button();
+            this.BtnGestionMaquinas = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panelContenedor = new System.Windows.Forms.Panel();
             this.FlechaDerecha = new System.Windows.Forms.PictureBox();
             this.IcoRestaurar = new System.Windows.Forms.PictureBox();
             this.IcoMinimizar = new System.Windows.Forms.PictureBox();
             this.IcoMaximizar = new System.Windows.Forms.PictureBox();
             this.IcoCerrar = new System.Windows.Forms.PictureBox();
             this.FlechaIzq = new System.Windows.Forms.PictureBox();
-            this.BtnGestionTrasportadores = new System.Windows.Forms.Button();
-            this.BtnGestionVehiculos = new System.Windows.Forms.Button();
-            this.BtnGestionMaquinas = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panelContenedor = new System.Windows.Forms.Panel();
             this.MenuVertical.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.FlechaDerecha)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.IcoRestaurar)).BeginInit();
@@ -50,7 +51,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.IcoMaximizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.IcoCerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.FlechaIzq)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // MenuVertical
@@ -66,6 +66,65 @@
             this.MenuVertical.Size = new System.Drawing.Size(352, 634);
             this.MenuVertical.TabIndex = 0;
             // 
+            // BtnGestionTrasportadores
+            // 
+            this.BtnGestionTrasportadores.FlatAppearance.BorderSize = 0;
+            this.BtnGestionTrasportadores.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.BtnGestionTrasportadores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnGestionTrasportadores.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.BtnGestionTrasportadores.ForeColor = System.Drawing.Color.White;
+            this.BtnGestionTrasportadores.Image = ((System.Drawing.Image)(resources.GetObject("BtnGestionTrasportadores.Image")));
+            this.BtnGestionTrasportadores.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnGestionTrasportadores.Location = new System.Drawing.Point(22, 188);
+            this.BtnGestionTrasportadores.Name = "BtnGestionTrasportadores";
+            this.BtnGestionTrasportadores.Size = new System.Drawing.Size(392, 40);
+            this.BtnGestionTrasportadores.TabIndex = 3;
+            this.BtnGestionTrasportadores.Text = "Gestion Trasportadores";
+            this.BtnGestionTrasportadores.UseVisualStyleBackColor = true;
+            // 
+            // BtnGestionVehiculos
+            // 
+            this.BtnGestionVehiculos.FlatAppearance.BorderSize = 0;
+            this.BtnGestionVehiculos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.BtnGestionVehiculos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnGestionVehiculos.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.BtnGestionVehiculos.ForeColor = System.Drawing.Color.White;
+            this.BtnGestionVehiculos.Image = ((System.Drawing.Image)(resources.GetObject("BtnGestionVehiculos.Image")));
+            this.BtnGestionVehiculos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnGestionVehiculos.Location = new System.Drawing.Point(22, 142);
+            this.BtnGestionVehiculos.Name = "BtnGestionVehiculos";
+            this.BtnGestionVehiculos.Size = new System.Drawing.Size(352, 40);
+            this.BtnGestionVehiculos.TabIndex = 2;
+            this.BtnGestionVehiculos.Text = "Gestion Vehiculos";
+            this.BtnGestionVehiculos.UseVisualStyleBackColor = true;
+            // 
+            // BtnGestionMaquinas
+            // 
+            this.BtnGestionMaquinas.FlatAppearance.BorderSize = 0;
+            this.BtnGestionMaquinas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.BtnGestionMaquinas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnGestionMaquinas.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.BtnGestionMaquinas.ForeColor = System.Drawing.Color.White;
+            this.BtnGestionMaquinas.Image = ((System.Drawing.Image)(resources.GetObject("BtnGestionMaquinas.Image")));
+            this.BtnGestionMaquinas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnGestionMaquinas.Location = new System.Drawing.Point(22, 96);
+            this.BtnGestionMaquinas.Name = "BtnGestionMaquinas";
+            this.BtnGestionMaquinas.Size = new System.Drawing.Size(352, 40);
+            this.BtnGestionMaquinas.TabIndex = 1;
+            this.BtnGestionMaquinas.Text = "Gestion Maquinas";
+            this.BtnGestionMaquinas.UseVisualStyleBackColor = true;
+            this.BtnGestionMaquinas.Click += new System.EventHandler(this.BtnGestionMaquinas_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(3, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(347, 78);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // panel1
             // 
             this.panel1.Controls.Add(this.FlechaDerecha);
@@ -80,14 +139,6 @@
             this.panel1.Size = new System.Drawing.Size(804, 50);
             this.panel1.TabIndex = 1;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
-            // 
-            // panelContenedor
-            // 
-            this.panelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContenedor.Location = new System.Drawing.Point(352, 50);
-            this.panelContenedor.Name = "panelContenedor";
-            this.panelContenedor.Size = new System.Drawing.Size(804, 584);
-            this.panelContenedor.TabIndex = 2;
             // 
             // FlechaDerecha
             // 
@@ -166,64 +217,13 @@
             this.FlechaIzq.TabStop = false;
             this.FlechaIzq.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // BtnGestionTrasportadores
+            // panelContenedor
             // 
-            this.BtnGestionTrasportadores.FlatAppearance.BorderSize = 0;
-            this.BtnGestionTrasportadores.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.BtnGestionTrasportadores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnGestionTrasportadores.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.BtnGestionTrasportadores.ForeColor = System.Drawing.Color.White;
-            this.BtnGestionTrasportadores.Image = ((System.Drawing.Image)(resources.GetObject("BtnGestionTrasportadores.Image")));
-            this.BtnGestionTrasportadores.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnGestionTrasportadores.Location = new System.Drawing.Point(22, 188);
-            this.BtnGestionTrasportadores.Name = "BtnGestionTrasportadores";
-            this.BtnGestionTrasportadores.Size = new System.Drawing.Size(392, 40);
-            this.BtnGestionTrasportadores.TabIndex = 3;
-            this.BtnGestionTrasportadores.Text = "Gestion Trasportadores";
-            this.BtnGestionTrasportadores.UseVisualStyleBackColor = true;
-            // 
-            // BtnGestionVehiculos
-            // 
-            this.BtnGestionVehiculos.FlatAppearance.BorderSize = 0;
-            this.BtnGestionVehiculos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.BtnGestionVehiculos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnGestionVehiculos.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.BtnGestionVehiculos.ForeColor = System.Drawing.Color.White;
-            this.BtnGestionVehiculos.Image = ((System.Drawing.Image)(resources.GetObject("BtnGestionVehiculos.Image")));
-            this.BtnGestionVehiculos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnGestionVehiculos.Location = new System.Drawing.Point(22, 142);
-            this.BtnGestionVehiculos.Name = "BtnGestionVehiculos";
-            this.BtnGestionVehiculos.Size = new System.Drawing.Size(352, 40);
-            this.BtnGestionVehiculos.TabIndex = 2;
-            this.BtnGestionVehiculos.Text = "Gestion Vehiculos";
-            this.BtnGestionVehiculos.UseVisualStyleBackColor = true;
-            // 
-            // BtnGestionMaquinas
-            // 
-            this.BtnGestionMaquinas.FlatAppearance.BorderSize = 0;
-            this.BtnGestionMaquinas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.BtnGestionMaquinas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnGestionMaquinas.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.BtnGestionMaquinas.ForeColor = System.Drawing.Color.White;
-            this.BtnGestionMaquinas.Image = ((System.Drawing.Image)(resources.GetObject("BtnGestionMaquinas.Image")));
-            this.BtnGestionMaquinas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnGestionMaquinas.Location = new System.Drawing.Point(22, 96);
-            this.BtnGestionMaquinas.Name = "BtnGestionMaquinas";
-            this.BtnGestionMaquinas.Size = new System.Drawing.Size(352, 40);
-            this.BtnGestionMaquinas.TabIndex = 1;
-            this.BtnGestionMaquinas.Text = "Gestion Maquinas";
-            this.BtnGestionMaquinas.UseVisualStyleBackColor = true;
-            this.BtnGestionMaquinas.Click += new System.EventHandler(this.BtnGestionMaquinas_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(347, 78);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.panelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContenedor.Location = new System.Drawing.Point(352, 50);
+            this.panelContenedor.Name = "panelContenedor";
+            this.panelContenedor.Size = new System.Drawing.Size(804, 584);
+            this.panelContenedor.TabIndex = 2;
             // 
             // MenuPrincipal
             // 
@@ -238,6 +238,7 @@
             this.Name = "MenuPrincipal";
             this.Text = "MenuPrincipal";
             this.MenuVertical.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.FlechaDerecha)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.IcoRestaurar)).EndInit();
@@ -245,7 +246,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.IcoMaximizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.IcoCerrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.FlechaIzq)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

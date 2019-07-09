@@ -16,6 +16,7 @@ namespace WindowsViews
     public partial class MenuPrincipal : Form
     {
        
+
         public MenuPrincipal()
         {
             InitializeComponent();
@@ -110,5 +111,7 @@ namespace WindowsViews
             
             AbrirLogeoMaquinasInPanel(new Login());
         }
+
+        
     }
 }
