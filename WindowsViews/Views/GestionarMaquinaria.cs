@@ -120,7 +120,7 @@ namespace WindowsViews
 
         private void button1_Click(object sender, EventArgs e)
         {
-            AbrirLogeoMaquinasInPanel(new MenuPrincipalMaquinaria();)
+            AbrirLogeoMaquinasInPanel(new MenuPrincipalMaquinaria());
         }
     }
 
