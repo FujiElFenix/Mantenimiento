@@ -130,7 +130,7 @@
     <value>Microsoft Sans Serif, 15.25pt</value>
   </data>
   <data name="BtnSalir.Location" type="System.Drawing.Point, System.Drawing">
-    <value>527, 9</value>
+    <value>751, 9</value>
   </data>
   <data name="BtnSalir.Size" type="System.Drawing.Size, System.Drawing">
     <value>26, 25</value>
@@ -293,7 +293,7 @@
 </value>
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>126, 55</value>
+    <value>239, 82</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>317, 156</value>
@@ -316,20 +316,98 @@
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAB3RJ
+        TUUH4wcJFhUoiYfBOgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAPnSURBVFhH
+        rddniBVXGIDhVWNDsbfYC7bYsMResGFFf4iiP1TwnwXBbrCABEEsiEnsYhcVK4oS7IoFG4KoIIgYgy2a
+        2LtG3/cyswxXt9zZ+8EDs2fKPfU7ZzNSjGLoghW4gVcBry3zns+kPfKjOTbjGd7hE/4PeG2Z9zbBZ30n
+        LeGHeuAobO1H/IW1+CWwLijzns8cRnekpRJtsBVv8AhL0QrVUC7gtWXL4TM+uwU/I09RCtPxBPexGLVQ
+        AMlhmfeW4AEeYxpKIna0xR68xwE0Rk7RBAfhO7thD8aOkXCG/41Z+AE5hc/Mhu/4rt+IHVPxLy5hsAW5
+        jCG4DN/1G7HDVjurT6O3BbmMPjiDl5hpQdyYAidg3B5wIk62IG6MwHXchS3J7Ryw55wD1zAcscMZvAvh
+        KvgJOUUjhKtgJ1ojdpSAa9nJ9BCucZNOVnnAez7jsw6dE9Bv5Clawvz+Fo7pajRFeZhk5LVla+AP++xG
+        tECew3xuXj+BL/gM063p2Xkhry3zns8cRzekZS/wI3WxEO54/kB2HPsFqI08RT60g135H5J/yG04PA94
+        nXxvPAojVrjDOYFcgrbIDzq2+zEB7VEdblZy8lnmPWf+dnSFjUg57DonkzM53Pt/R2dUhLO6EKLj67Vl
+        3qsQKIKUw7G2y22t4/0nzGqVkUp3+mwH2CNzMS/gtZnRo9s3vWPtPVD8Aw8UG+CDqa5jM+FonIS959nA
+        3pTXZtVzGIfMsDbW9g4c8/VwAhZFNOxqW+fBMyudcAh+x0OM+8jZgNemaIf2KuogEc3gTV86gp5IHsPS
+        GIBVsIJZ8ezoEN7DfPSCZ0q5o07Cc7zGGCRavwgW2k2j4I9Fw7+dC6fgCTi65LLiiumI5KgPt/cP2GdB
+        TdyEHzbl1kM07FZbfgz2kF24A9uy4fwZBpez4ZIdCss8sv0Bs6ZzJNFiu8OEMgjFEY0aMAv6wgt4RjTv
+        N8yGjbLiYdj1F+AhxSHxyGZu8XcTScOWOQfsnuSoghlweKyA27IVHRiwd1y+BWF4Mnb1WBYuXZOU/zus
+        hAnqV1iBp0gsC1u3DP7Y98IWu0SdXD5rzT1uyY/MgRnRmIiLcM1bGcMk9SPsTbl5OeRXkJh81saJ2ABl
+        4KQL2ZXu9R40rMRtuFyjHNOyMH6DFT0Pxz36PZ8xo96Cic5GJyaXM9KecBdzEzFJaCzs4qpwtbjv94cf
+        Drk6KiE8pHiM8yhmMtsLeyT8nlnQiW6D3eA8vGb0hQnDSngjeTlZsVQOlna1XeykDs8HUZY5dOaLzPTe
+        Dx4inGTRSnjt7LWVqYST2X/jrHw0b3htY93s2F8yMr4CdsQ6iznHil8AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 69</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 38</value>
+  </data>
+  <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.25pt</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 70</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 25</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Ingresar al sistema</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 156</value>
+    <value>42, 156</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 13</value>
+    <value>108, 13</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Ingresar Contraseña</value>
+    <value>Ingresar Contraseña: </value>
   </data>
   <data name="&gt;&gt;label2.Name" xml:space="preserve">
     <value>label2</value>
@@ -341,7 +419,7 @@
     <value>panel2</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -350,16 +428,16 @@
     <value>NoControl</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>53, 114</value>
+    <value>42, 110</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 13</value>
+    <value>87, 13</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Ingresar Usuario</value>
+    <value>Ingresar Usuario:</value>
   </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
@@ -371,13 +449,13 @@
     <value>panel2</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="BtnIngresar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>295, 126</value>
+    <value>277, 145</value>
   </data>
   <data name="BtnIngresar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>93, 24</value>
   </data>
   <data name="BtnIngresar.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -395,10 +473,10 @@
     <value>panel2</value>
   </data>
   <data name="&gt;&gt;BtnIngresar.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>45, 153</value>
+    <value>45, 172</value>
   </data>
   <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>174, 20</value>
@@ -416,10 +494,10 @@
     <value>panel2</value>
   </data>
   <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>45, 108</value>
+    <value>45, 126</value>
   </data>
   <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>174, 20</value>
@@ -437,7 +515,7 @@
     <value>panel2</value>
   </data>
   <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 5</value>
@@ -461,7 +539,7 @@
     <value>0</value>
   </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>68, 144</value>
+    <value>181, 171</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>432, 236</value>
@@ -482,7 +560,7 @@
     <value>2</value>
   </data>
   <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>118, 49</value>
+    <value>231, 76</value>
   </data>
   <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
     <value>333, 167</value>
@@ -509,7 +587,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>565, 443</value>
+    <value>789, 562</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
