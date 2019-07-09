@@ -10,3 +10,6 @@ C:\Users\Pipe Feanco\Desktop\Practica mindugar\ProyectoMantenimiento\WindowsView
 C:\Users\Pipe Feanco\Desktop\Practica mindugar\ProyectoMantenimiento\WindowsViews\WindowsViews\obj\Debug\WindowsViews.Login.resources
 C:\Users\Pipe Feanco\Desktop\Practica mindugar\ProyectoMantenimiento\WindowsViews\WindowsViews\bin\Debug\EntityFramework.dll
 C:\Users\Pipe Feanco\Desktop\Practica mindugar\ProyectoMantenimiento\WindowsViews\WindowsViews\bin\Debug\EntityFramework.xml
+C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\bin\Debug\WindowsViews.exe.config
+C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.exe
+C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.pdb
