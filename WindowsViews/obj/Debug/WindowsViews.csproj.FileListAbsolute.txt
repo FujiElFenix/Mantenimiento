@@ -13,10 +13,3 @@ C:\Users\Pipe Feanco\Desktop\Practica mindugar\ProyectoMantenimiento\WindowsView
 C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\bin\Debug\WindowsViews.exe.config
 C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.exe
 C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.pdb
-C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\bin\Debug\WindowsViews.exe
-C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\bin\Debug\WindowsViews.pdb
-C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.Login.resources
-C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.MenuPrincipal.resources
-C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.Properties.Resources.resources
-C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.csproj.GenerateResource.Cache
-C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.GestionarMaquinaria.resources

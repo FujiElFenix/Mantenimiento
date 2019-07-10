@@ -16,7 +16,6 @@ namespace WindowsViews
     public partial class MenuPrincipal : Form
     {
        
-
         public MenuPrincipal()
         {
             InitializeComponent();
@@ -109,16 +108,6 @@ namespace WindowsViews
         private void BtnGestionMaquinas_Click(object sender, EventArgs e)
         {
             
-            AbrirLogeoMaquinasInPanel(new Login());
-        }
-
-        private void BtnGestionVehiculos_Click(object sender, EventArgs e)
-        {
-            AbrirLogeoMaquinasInPanel(new Login());
-        }
-
-        private void BtnGestionTrasportadores_Click(object sender, EventArgs e)
-        {
             AbrirLogeoMaquinasInPanel(new Login());
         }
     }

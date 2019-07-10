@@ -49,33 +49,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Views\GestionarMaquinaria.cs">
+    <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\GestionarMaquinaria.Designer.cs">
-      <DependentUpon>GestionarMaquinaria.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Views\Login.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Views\Login.Designer.cs">
+    <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\MenuPrincipal.cs">
+    <Compile Include="MenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\MenuPrincipal.Designer.cs">
+    <Compile Include="MenuPrincipal.Designer.cs">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Views\GestionarMaquinaria.resx">
-      <DependentUpon>GestionarMaquinaria.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\Login.resx">
+    <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\MenuPrincipal.resx">
+    <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
