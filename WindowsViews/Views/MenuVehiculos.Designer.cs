@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuVehiculos));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.BtnSalir = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
@@ -47,7 +48,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.BtnSalir = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel9.SuspendLayout();
@@ -74,6 +74,14 @@
             this.panel1.Controls.Add(this.panel2);
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
+            // 
+            // BtnSalir
+            // 
+            resources.ApplyResources(this.BtnSalir, "BtnSalir");
+            this.BtnSalir.BackColor = System.Drawing.Color.White;
+            this.BtnSalir.ForeColor = System.Drawing.Color.Maroon;
+            this.BtnSalir.Name = "BtnSalir";
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
             // label5
             // 
@@ -192,14 +200,6 @@
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
-            // 
-            // BtnSalir
-            // 
-            resources.ApplyResources(this.BtnSalir, "BtnSalir");
-            this.BtnSalir.BackColor = System.Drawing.Color.White;
-            this.BtnSalir.ForeColor = System.Drawing.Color.Maroon;
-            this.BtnSalir.Name = "BtnSalir";
-            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
             // MenuVehiculos
             // 

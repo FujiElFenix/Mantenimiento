@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuMaquinaria));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.BtnSalir = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
@@ -47,7 +48,6 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.BtnSalir = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel9.SuspendLayout();
@@ -77,12 +77,28 @@
             this.panel1.Size = new System.Drawing.Size(780, 551);
             this.panel1.TabIndex = 0;
             // 
+            // BtnSalir
+            // 
+            this.BtnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.BtnSalir.AutoSize = true;
+            this.BtnSalir.BackColor = System.Drawing.Color.White;
+            this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.BtnSalir.ForeColor = System.Drawing.Color.Maroon;
+            this.BtnSalir.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.BtnSalir.Location = new System.Drawing.Point(754, 0);
+            this.BtnSalir.Name = "BtnSalir";
+            this.BtnSalir.Size = new System.Drawing.Size(26, 25);
+            this.BtnSalir.TabIndex = 4;
+            this.BtnSalir.Text = "X";
+            this.BtnSalir.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.White;
             this.label5.Font = new System.Drawing.Font("Rockwell", 17F);
-            this.label5.Location = new System.Drawing.Point(87, 22);
+            this.label5.Location = new System.Drawing.Point(96, 22);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(544, 26);
             this.label5.TabIndex = 3;
@@ -251,22 +267,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // BtnSalir
-            // 
-            this.BtnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnSalir.AutoSize = true;
-            this.BtnSalir.BackColor = System.Drawing.Color.White;
-            this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.BtnSalir.ForeColor = System.Drawing.Color.Maroon;
-            this.BtnSalir.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.BtnSalir.Location = new System.Drawing.Point(754, 0);
-            this.BtnSalir.Name = "BtnSalir";
-            this.BtnSalir.Size = new System.Drawing.Size(26, 25);
-            this.BtnSalir.TabIndex = 4;
-            this.BtnSalir.Text = "X";
-            this.BtnSalir.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
             // MenuMaquinaria
             // 
