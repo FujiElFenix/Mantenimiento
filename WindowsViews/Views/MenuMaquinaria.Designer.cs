@@ -97,12 +97,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.25F);
-            this.label1.Location = new System.Drawing.Point(6, 133);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.label1.Location = new System.Drawing.Point(8, 133);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(275, 29);
+            this.label1.Size = new System.Drawing.Size(264, 25);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Historial De Maquinarias";
+            this.label1.Text = "Historial De Mantenciones";
             // 
             // pictureBox1
             // 
@@ -171,11 +171,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
-            this.label3.Location = new System.Drawing.Point(6, 133);
+            this.label3.Location = new System.Drawing.Point(23, 133);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(270, 24);
+            this.label3.Size = new System.Drawing.Size(230, 24);
             this.label3.TabIndex = 1;
-            this.label3.Text = "Creacion de Orden De Trabajo";
+            this.label3.Text = "Ingreso Orden De Trabajo";
             // 
             // panel7
             // 
@@ -243,10 +243,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.White;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.label5.Location = new System.Drawing.Point(116, 18);
+            this.label5.Font = new System.Drawing.Font("Rockwell", 17F);
+            this.label5.Location = new System.Drawing.Point(87, 22);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(497, 25);
+            this.label5.Size = new System.Drawing.Size(544, 26);
             this.label5.TabIndex = 3;
             this.label5.Text = "Bienvenido Al Sistema De Gestion De Maquinarias";
             // 

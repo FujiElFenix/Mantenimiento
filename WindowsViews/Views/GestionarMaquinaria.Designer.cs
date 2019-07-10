@@ -30,7 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GestionarMaquinaria));
             this.MenuVertical = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -45,9 +48,6 @@
             this.IcoCerrar = new System.Windows.Forms.PictureBox();
             this.FlechaIzq = new System.Windows.Forms.PictureBox();
             this.panelContenedor = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
             this.MenuVertical.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -74,6 +74,14 @@
             this.MenuVertical.Size = new System.Drawing.Size(352, 634);
             this.MenuVertical.TabIndex = 0;
             // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(188)))), ((int)(((byte)(229)))));
+            this.panel4.Location = new System.Drawing.Point(22, 142);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(10, 40);
+            this.panel4.TabIndex = 4;
+            // 
             // panel3
             // 
             this.panel3.Controls.Add(this.panel6);
@@ -85,6 +93,22 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(327, 148);
             this.panel3.TabIndex = 4;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(188)))), ((int)(((byte)(229)))));
+            this.panel6.Location = new System.Drawing.Point(3, 92);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(10, 40);
+            this.panel6.TabIndex = 5;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(188)))), ((int)(((byte)(229)))));
+            this.panel5.Location = new System.Drawing.Point(3, 46);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(10, 40);
+            this.panel5.TabIndex = 5;
             // 
             // button4
             // 
@@ -99,7 +123,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(343, 40);
             this.button4.TabIndex = 7;
-            this.button4.Text = "Bajar Maquinaria";
+            this.button4.Text = "Dar de Baja";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button3
@@ -115,7 +139,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(343, 40);
             this.button3.TabIndex = 6;
-            this.button3.Text = "Historial Maquinaria";
+            this.button3.Text = "Consulta";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button2
@@ -131,7 +155,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(343, 40);
             this.button2.TabIndex = 5;
-            this.button2.Text = "Ingreso Maquinaria";
+            this.button2.Text = "Ingreso ";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // panel2
@@ -268,30 +292,6 @@
             this.panelContenedor.Name = "panelContenedor";
             this.panelContenedor.Size = new System.Drawing.Size(804, 584);
             this.panelContenedor.TabIndex = 2;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(188)))), ((int)(((byte)(229)))));
-            this.panel4.Location = new System.Drawing.Point(22, 142);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(10, 40);
-            this.panel4.TabIndex = 4;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(188)))), ((int)(((byte)(229)))));
-            this.panel5.Location = new System.Drawing.Point(3, 46);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(10, 40);
-            this.panel5.TabIndex = 5;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(188)))), ((int)(((byte)(229)))));
-            this.panel6.Location = new System.Drawing.Point(3, 92);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(10, 40);
-            this.panel6.TabIndex = 5;
             // 
             // GestionarMaquinaria
             // 

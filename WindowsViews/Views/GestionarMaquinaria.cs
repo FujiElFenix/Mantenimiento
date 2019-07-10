@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using WindowsViews.Views;
 
 namespace WindowsViews
 {
@@ -120,7 +121,7 @@ namespace WindowsViews
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            AbrirLogeoMaquinasInPanel(new MenuMaquinaria());
         }
     }
 
