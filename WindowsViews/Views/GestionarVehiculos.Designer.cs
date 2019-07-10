@@ -1,6 +1,6 @@
-﻿namespace WindowsViews
+﻿namespace WindowsViews.Views
 {
-    partial class GestionarMaquinaria
+    partial class GestionarVehiculos
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GestionarMaquinaria));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GestionarVehiculos));
             this.MenuVertical = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -63,7 +63,6 @@
             // MenuVertical
             // 
             this.MenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.MenuVertical.Controls.Add(this.panel4);
             this.MenuVertical.Controls.Add(this.panel3);
             this.MenuVertical.Controls.Add(this.panel2);
             this.MenuVertical.Controls.Add(this.button1);
@@ -77,21 +76,22 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(188)))), ((int)(((byte)(229)))));
-            this.panel4.Location = new System.Drawing.Point(22, 142);
+            this.panel4.Location = new System.Drawing.Point(3, 3);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(10, 40);
             this.panel4.TabIndex = 4;
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.panel4);
             this.panel3.Controls.Add(this.panel6);
             this.panel3.Controls.Add(this.panel5);
             this.panel3.Controls.Add(this.button4);
             this.panel3.Controls.Add(this.button3);
             this.panel3.Controls.Add(this.button2);
-            this.panel3.Location = new System.Drawing.Point(19, 142);
+            this.panel3.Location = new System.Drawing.Point(25, 156);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(327, 148);
+            this.panel3.Size = new System.Drawing.Size(327, 137);
             this.panel3.TabIndex = 4;
             // 
             // panel6
@@ -115,7 +115,7 @@
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(188)))), ((int)(((byte)(229)))));
             this.panel2.Location = new System.Drawing.Point(12, 96);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(10, 40);
+            this.panel2.Size = new System.Drawing.Size(10, 54);
             this.panel2.TabIndex = 3;
             // 
             // panel1
@@ -143,12 +143,13 @@
             // 
             // FlechaDerecha
             // 
+            this.FlechaDerecha.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FlechaDerecha.Image = ((System.Drawing.Image)(resources.GetObject("FlechaDerecha.Image")));
-            this.FlechaDerecha.Location = new System.Drawing.Point(6, 4);
+            this.FlechaDerecha.Location = new System.Drawing.Point(6, 3);
             this.FlechaDerecha.Name = "FlechaDerecha";
             this.FlechaDerecha.Size = new System.Drawing.Size(51, 44);
             this.FlechaDerecha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.FlechaDerecha.TabIndex = 0;
+            this.FlechaDerecha.TabIndex = 1;
             this.FlechaDerecha.TabStop = false;
             this.FlechaDerecha.Visible = false;
             this.FlechaDerecha.Click += new System.EventHandler(this.FlechaDerecha_Click);
@@ -158,53 +159,53 @@
             this.IcoRestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.IcoRestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.IcoRestaurar.Image = ((System.Drawing.Image)(resources.GetObject("IcoRestaurar.Image")));
-            this.IcoRestaurar.Location = new System.Drawing.Point(710, 4);
+            this.IcoRestaurar.Location = new System.Drawing.Point(715, 6);
             this.IcoRestaurar.Name = "IcoRestaurar";
             this.IcoRestaurar.Size = new System.Drawing.Size(37, 37);
             this.IcoRestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.IcoRestaurar.TabIndex = 4;
+            this.IcoRestaurar.TabIndex = 9;
             this.IcoRestaurar.TabStop = false;
             this.IcoRestaurar.Visible = false;
-            this.IcoRestaurar.Click += new System.EventHandler(this.IcRestaurar_Click);
+            this.IcoRestaurar.Click += new System.EventHandler(this.IcoRestaurar_Click);
             // 
             // IcoMinimizar
             // 
             this.IcoMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.IcoMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.IcoMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("IcoMinimizar.Image")));
-            this.IcoMinimizar.Location = new System.Drawing.Point(655, 3);
+            this.IcoMinimizar.Location = new System.Drawing.Point(660, 6);
             this.IcoMinimizar.Name = "IcoMinimizar";
             this.IcoMinimizar.Size = new System.Drawing.Size(58, 38);
             this.IcoMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.IcoMinimizar.TabIndex = 3;
+            this.IcoMinimizar.TabIndex = 8;
             this.IcoMinimizar.TabStop = false;
-            this.IcoMinimizar.Click += new System.EventHandler(this.IcoMinimizar_Click);
+            this.IcoMinimizar.Click += new System.EventHandler(this.IcoMinimizar_Click_1);
             // 
             // IcoMaximizar
             // 
             this.IcoMaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.IcoMaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.IcoMaximizar.Image = ((System.Drawing.Image)(resources.GetObject("IcoMaximizar.Image")));
-            this.IcoMaximizar.Location = new System.Drawing.Point(710, 3);
+            this.IcoMaximizar.Location = new System.Drawing.Point(715, 6);
             this.IcoMaximizar.Name = "IcoMaximizar";
             this.IcoMaximizar.Size = new System.Drawing.Size(37, 35);
             this.IcoMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.IcoMaximizar.TabIndex = 2;
+            this.IcoMaximizar.TabIndex = 7;
             this.IcoMaximizar.TabStop = false;
-            this.IcoMaximizar.Click += new System.EventHandler(this.IcoMaximizar_Click);
+            this.IcoMaximizar.Click += new System.EventHandler(this.IcoMaximizar_Click_1);
             // 
             // IcoCerrar
             // 
             this.IcoCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.IcoCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.IcoCerrar.Image = ((System.Drawing.Image)(resources.GetObject("IcoCerrar.Image")));
-            this.IcoCerrar.Location = new System.Drawing.Point(754, 3);
+            this.IcoCerrar.Location = new System.Drawing.Point(759, 6);
             this.IcoCerrar.Name = "IcoCerrar";
             this.IcoCerrar.Size = new System.Drawing.Size(38, 35);
             this.IcoCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.IcoCerrar.TabIndex = 1;
+            this.IcoCerrar.TabIndex = 6;
             this.IcoCerrar.TabStop = false;
-            this.IcoCerrar.Click += new System.EventHandler(this.IcoCerrar_Click);
+            this.IcoCerrar.Click += new System.EventHandler(this.IcoCerrar_Click_1);
             // 
             // FlechaIzq
             // 
@@ -214,9 +215,9 @@
             this.FlechaIzq.Name = "FlechaIzq";
             this.FlechaIzq.Size = new System.Drawing.Size(51, 41);
             this.FlechaIzq.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.FlechaIzq.TabIndex = 0;
+            this.FlechaIzq.TabIndex = 5;
             this.FlechaIzq.TabStop = false;
-            this.FlechaIzq.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.FlechaIzq.Click += new System.EventHandler(this.FlechaIzq_Click);
             // 
             // button4
             // 
@@ -268,6 +269,7 @@
             // 
             // button1
             // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -277,10 +279,9 @@
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(19, 96);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(333, 40);
+            this.button1.Size = new System.Drawing.Size(333, 54);
             this.button1.TabIndex = 2;
-            this.button1.Text = "Gestion Maquinas";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Text = "Gestion Vehiculos";
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
@@ -293,7 +294,7 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // GestionarMaquinaria
+            // GestionarVehiculos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -303,7 +304,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.MenuVertical);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "GestionarMaquinaria";
+            this.Name = "GestionarVehiculos";
             this.Text = "MenuPrincipal";
             this.MenuVertical.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
@@ -324,13 +325,7 @@
         private System.Windows.Forms.Panel MenuVertical;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox FlechaIzq;
         private System.Windows.Forms.Panel panelContenedor;
-        private System.Windows.Forms.PictureBox IcoMinimizar;
-        private System.Windows.Forms.PictureBox IcoMaximizar;
-        private System.Windows.Forms.PictureBox IcoCerrar;
-        private System.Windows.Forms.PictureBox IcoRestaurar;
-        private System.Windows.Forms.PictureBox FlechaDerecha;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
@@ -340,5 +335,11 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.PictureBox FlechaDerecha;
+        private System.Windows.Forms.PictureBox FlechaIzq;
+        private System.Windows.Forms.PictureBox IcoRestaurar;
+        private System.Windows.Forms.PictureBox IcoMinimizar;
+        private System.Windows.Forms.PictureBox IcoMaximizar;
+        private System.Windows.Forms.PictureBox IcoCerrar;
     }
 }

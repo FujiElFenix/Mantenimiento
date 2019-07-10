@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsViews.Views;
 
 namespace WindowsViews
 {
@@ -16,7 +17,7 @@ namespace WindowsViews
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new GestionarMaquinaria());
+            Application.Run(new GestionarVehiculos());
         }
     }
 }
