@@ -30,9 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GestionarVehiculos));
             this.MenuVertical = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -43,7 +42,6 @@
             this.IcoMaximizar = new System.Windows.Forms.PictureBox();
             this.IcoCerrar = new System.Windows.Forms.PictureBox();
             this.FlechaIzq = new System.Windows.Forms.PictureBox();
-            this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -73,6 +71,17 @@
             this.MenuVertical.Size = new System.Drawing.Size(352, 634);
             this.MenuVertical.TabIndex = 0;
             // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.panel4);
+            this.panel3.Controls.Add(this.panel5);
+            this.panel3.Controls.Add(this.button3);
+            this.panel3.Controls.Add(this.button2);
+            this.panel3.Location = new System.Drawing.Point(25, 156);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(327, 91);
+            this.panel3.TabIndex = 4;
+            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(188)))), ((int)(((byte)(229)))));
@@ -80,27 +89,6 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(10, 40);
             this.panel4.TabIndex = 4;
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.panel4);
-            this.panel3.Controls.Add(this.panel6);
-            this.panel3.Controls.Add(this.panel5);
-            this.panel3.Controls.Add(this.button4);
-            this.panel3.Controls.Add(this.button3);
-            this.panel3.Controls.Add(this.button2);
-            this.panel3.Location = new System.Drawing.Point(25, 156);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(327, 137);
-            this.panel3.TabIndex = 4;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(188)))), ((int)(((byte)(229)))));
-            this.panel6.Location = new System.Drawing.Point(3, 92);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(10, 40);
-            this.panel6.TabIndex = 5;
             // 
             // panel5
             // 
@@ -219,22 +207,6 @@
             this.FlechaIzq.TabStop = false;
             this.FlechaIzq.Click += new System.EventHandler(this.FlechaIzq_Click);
             // 
-            // button4
-            // 
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(6, 92);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(343, 40);
-            this.button4.TabIndex = 7;
-            this.button4.Text = "Dar de Baja";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
             // button3
             // 
             this.button3.FlatAppearance.BorderSize = 0;
@@ -250,6 +222,7 @@
             this.button3.TabIndex = 6;
             this.button3.Text = "Consulta";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -266,6 +239,7 @@
             this.button2.TabIndex = 5;
             this.button2.Text = "Ingreso ";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -329,11 +303,9 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.PictureBox FlechaDerecha;
         private System.Windows.Forms.PictureBox FlechaIzq;

@@ -120,5 +120,15 @@ namespace WindowsViews.Views
         {
             AbrirLogeoMaquinasInPanel(new MenuVehiculos());
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AbrirLogeoMaquinasInPanel(new IngresoVehiculos());
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            AbrirLogeoMaquinasInPanel(new ListadoVehiculos());
+        }
     }
 }

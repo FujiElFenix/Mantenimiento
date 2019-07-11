@@ -67,6 +67,18 @@
     <Compile Include="Views\IngresoOT.Designer.cs">
       <DependentUpon>IngresoOT.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\IngresoVehiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\IngresoVehiculos.Designer.cs">
+      <DependentUpon>IngresoVehiculos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ListadoVehiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ListadoVehiculos.Designer.cs">
+      <DependentUpon>ListadoVehiculos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +113,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\IngresoOT.resx">
       <DependentUpon>IngresoOT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\IngresoVehiculos.resx">
+      <DependentUpon>IngresoVehiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ListadoVehiculos.resx">
+      <DependentUpon>ListadoVehiculos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
