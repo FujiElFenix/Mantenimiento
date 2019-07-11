@@ -65,7 +65,8 @@ namespace WindowsViews.Views
 
         private void ImgOT_Click(object sender, EventArgs e)
         {
-            
+            IngresoOT ingresoot = new IngresoOT();
+            ingresoot.Show();
         }
     }
 }
