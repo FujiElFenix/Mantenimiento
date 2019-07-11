@@ -69,6 +69,7 @@
             this.label19 = new System.Windows.Forms.Label();
             this.TxtProcedimientoRealizado = new System.Windows.Forms.TextBox();
             this.TxtRepuestosUtilizados = new System.Windows.Forms.TextBox();
+            this.BtnSalir = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -79,6 +80,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(188)))), ((int)(((byte)(229)))));
+            this.panel1.Controls.Add(this.BtnSalir);
             this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.panel3);
@@ -147,7 +149,7 @@
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(205, 17);
             this.label14.TabIndex = 26;
-            this.label14.Text = "Fecha Mantencion/Reparacion:";
+            this.label14.Text = "Fecha Mantención/Reparacion:";
             // 
             // DtMantencionReparacion
             // 
@@ -166,7 +168,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(334, 26);
             this.label13.TabIndex = 24;
-            this.label13.Text = "Fecha Mantencion/Reparacion";
+            this.label13.Text = "Fecha Mantención/Reparacion";
             // 
             // panel3
             // 
@@ -274,7 +276,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(128, 17);
             this.label9.TabIndex = 15;
-            this.label9.Text = "Fecha Notificacion:";
+            this.label9.Text = "Fecha Notificación:";
             // 
             // label8
             // 
@@ -378,7 +380,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(69, 17);
             this.label3.TabIndex = 12;
-            this.label3.Text = "Duracion:";
+            this.label3.Text = "Duración:";
             // 
             // label2
             // 
@@ -388,7 +390,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(55, 17);
             this.label2.TabIndex = 11;
-            this.label2.Text = "Reviso:";
+            this.label2.Text = "Revisó:";
             // 
             // label1
             // 
@@ -476,6 +478,22 @@
             this.TxtRepuestosUtilizados.Size = new System.Drawing.Size(500, 59);
             this.TxtRepuestosUtilizados.TabIndex = 3;
             // 
+            // BtnSalir
+            // 
+            this.BtnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.BtnSalir.AutoSize = true;
+            this.BtnSalir.BackColor = System.Drawing.Color.White;
+            this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.BtnSalir.ForeColor = System.Drawing.Color.Maroon;
+            this.BtnSalir.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.BtnSalir.Location = new System.Drawing.Point(754, -3);
+            this.BtnSalir.Name = "BtnSalir";
+            this.BtnSalir.Size = new System.Drawing.Size(26, 25);
+            this.BtnSalir.TabIndex = 33;
+            this.BtnSalir.Text = "X";
+            this.BtnSalir.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
+            // 
             // IngresoOT
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -486,6 +504,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "IngresoOT";
             this.Text = "IngresoMaquinas";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.IngresoOT_MouseDown);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel4.ResumeLayout(false);
@@ -543,5 +562,6 @@
         private System.Windows.Forms.TextBox TxtProcedimientoRealizado;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label BtnSalir;
     }
 }

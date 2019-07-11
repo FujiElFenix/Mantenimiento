@@ -62,5 +62,10 @@ namespace WindowsViews.Views
         {
             ImgProximasMantenciones.Size = new Size(width: 249, height: 116);
         }
+
+        private void ImgOT_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

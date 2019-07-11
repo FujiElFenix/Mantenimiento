@@ -44,10 +44,10 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.ImgProximasMantenciones = new System.Windows.Forms.PictureBox();
+            this.ImgOT = new System.Windows.Forms.PictureBox();
+            this.ImgMantencion = new System.Windows.Forms.PictureBox();
+            this.ImgHistorial = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel9.SuspendLayout();
@@ -57,10 +57,10 @@
             this.panel5.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgProximasMantenciones)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgOT)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgMantencion)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgHistorial)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -118,7 +118,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.25F);
-            this.label4.Location = new System.Drawing.Point(6, 133);
+            this.label4.Location = new System.Drawing.Point(6, 138);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(269, 29);
             this.label4.TabIndex = 1;
@@ -126,11 +126,11 @@
             // 
             // panel9
             // 
-            this.panel9.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel9.Controls.Add(this.pictureBox4);
+            this.panel9.BackColor = System.Drawing.Color.White;
+            this.panel9.Controls.Add(this.ImgProximasMantenciones);
             this.panel9.Location = new System.Drawing.Point(13, 12);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(255, 100);
+            this.panel9.Size = new System.Drawing.Size(255, 122);
             this.panel9.TabIndex = 0;
             // 
             // panel6
@@ -147,7 +147,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
-            this.label3.Location = new System.Drawing.Point(23, 133);
+            this.label3.Location = new System.Drawing.Point(21, 138);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(230, 24);
             this.label3.TabIndex = 1;
@@ -155,11 +155,11 @@
             // 
             // panel7
             // 
-            this.panel7.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel7.Controls.Add(this.pictureBox3);
+            this.panel7.BackColor = System.Drawing.Color.White;
+            this.panel7.Controls.Add(this.ImgOT);
             this.panel7.Location = new System.Drawing.Point(13, 12);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(255, 100);
+            this.panel7.Size = new System.Drawing.Size(255, 122);
             this.panel7.TabIndex = 0;
             // 
             // panel4
@@ -176,7 +176,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.25F);
-            this.label2.Location = new System.Drawing.Point(6, 133);
+            this.label2.Location = new System.Drawing.Point(6, 137);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(274, 29);
             this.label2.TabIndex = 1;
@@ -184,11 +184,11 @@
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel5.Controls.Add(this.pictureBox2);
+            this.panel5.BackColor = System.Drawing.Color.White;
+            this.panel5.Controls.Add(this.ImgMantencion);
             this.panel5.Location = new System.Drawing.Point(13, 12);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(255, 100);
+            this.panel5.Size = new System.Drawing.Size(255, 122);
             this.panel5.TabIndex = 0;
             // 
             // panel2
@@ -205,7 +205,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.label1.Location = new System.Drawing.Point(8, 133);
+            this.label1.Location = new System.Drawing.Point(8, 137);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(264, 25);
             this.label1.TabIndex = 1;
@@ -213,60 +213,69 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel3.Controls.Add(this.pictureBox1);
+            this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.Controls.Add(this.ImgHistorial);
             this.panel3.Location = new System.Drawing.Point(13, 12);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(255, 100);
+            this.panel3.Size = new System.Drawing.Size(255, 122);
             this.panel3.TabIndex = 0;
             // 
-            // pictureBox4
+            // ImgProximasMantenciones
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.OliveDrab;
-            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(249, 94);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
+            this.ImgProximasMantenciones.BackColor = System.Drawing.Color.OliveDrab;
+            this.ImgProximasMantenciones.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ImgProximasMantenciones.Image = ((System.Drawing.Image)(resources.GetObject("ImgProximasMantenciones.Image")));
+            this.ImgProximasMantenciones.Location = new System.Drawing.Point(3, 3);
+            this.ImgProximasMantenciones.Name = "ImgProximasMantenciones";
+            this.ImgProximasMantenciones.Size = new System.Drawing.Size(249, 94);
+            this.ImgProximasMantenciones.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ImgProximasMantenciones.TabIndex = 0;
+            this.ImgProximasMantenciones.TabStop = false;
+            this.ImgProximasMantenciones.MouseLeave += new System.EventHandler(this.ImgProximasMantenciones_MouseLeave);
+            this.ImgProximasMantenciones.MouseHover += new System.EventHandler(this.ImgProximasMantenciones_MouseHover);
             // 
-            // pictureBox3
+            // ImgOT
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.NavajoWhite;
-            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(249, 94);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
+            this.ImgOT.BackColor = System.Drawing.Color.NavajoWhite;
+            this.ImgOT.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ImgOT.Image = ((System.Drawing.Image)(resources.GetObject("ImgOT.Image")));
+            this.ImgOT.Location = new System.Drawing.Point(3, 3);
+            this.ImgOT.Name = "ImgOT";
+            this.ImgOT.Size = new System.Drawing.Size(249, 94);
+            this.ImgOT.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ImgOT.TabIndex = 0;
+            this.ImgOT.TabStop = false;
+            this.ImgOT.Click += new System.EventHandler(this.ImgOT_Click);
+            this.ImgOT.MouseLeave += new System.EventHandler(this.ImgOT_MouseLeave);
+            this.ImgOT.MouseHover += new System.EventHandler(this.ImgOT_MouseHover);
             // 
-            // pictureBox2
+            // ImgMantencion
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.SandyBrown;
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(249, 94);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
+            this.ImgMantencion.BackColor = System.Drawing.Color.SandyBrown;
+            this.ImgMantencion.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ImgMantencion.Image = ((System.Drawing.Image)(resources.GetObject("ImgMantencion.Image")));
+            this.ImgMantencion.Location = new System.Drawing.Point(3, 3);
+            this.ImgMantencion.Name = "ImgMantencion";
+            this.ImgMantencion.Size = new System.Drawing.Size(249, 94);
+            this.ImgMantencion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ImgMantencion.TabIndex = 0;
+            this.ImgMantencion.TabStop = false;
+            this.ImgMantencion.MouseLeave += new System.EventHandler(this.ImgMantencion_MouseLeave);
+            this.ImgMantencion.MouseHover += new System.EventHandler(this.ImgMantencion_MouseHover);
             // 
-            // pictureBox1
+            // ImgHistorial
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Teal;
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(249, 94);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.ImgHistorial.BackColor = System.Drawing.Color.Teal;
+            this.ImgHistorial.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ImgHistorial.Image = ((System.Drawing.Image)(resources.GetObject("ImgHistorial.Image")));
+            this.ImgHistorial.Location = new System.Drawing.Point(3, 3);
+            this.ImgHistorial.Name = "ImgHistorial";
+            this.ImgHistorial.Size = new System.Drawing.Size(249, 94);
+            this.ImgHistorial.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ImgHistorial.TabIndex = 0;
+            this.ImgHistorial.TabStop = false;
+            this.ImgHistorial.MouseLeave += new System.EventHandler(this.ImgHistorial_MouseLeave);
+            this.ImgHistorial.MouseHover += new System.EventHandler(this.ImgHistorial_MouseHover);
             // 
             // MenuMaquinaria
             // 
@@ -293,10 +302,10 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgProximasMantenciones)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgOT)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgMantencion)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgHistorial)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -307,20 +316,20 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox ImgHistorial;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox ImgProximasMantenciones;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox ImgOT;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox ImgMantencion;
         private System.Windows.Forms.Label BtnSalir;
     }
 }

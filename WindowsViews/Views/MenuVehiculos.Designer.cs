@@ -146,6 +146,7 @@
             resources.ApplyResources(this.ImgOT, "ImgOT");
             this.ImgOT.Name = "ImgOT";
             this.ImgOT.TabStop = false;
+            this.ImgOT.Click += new System.EventHandler(this.ImgOT_Click);
             this.ImgOT.MouseLeave += new System.EventHandler(this.ImgOT_MouseLeave);
             this.ImgOT.MouseHover += new System.EventHandler(this.ImgOT_MouseHover);
             // 
