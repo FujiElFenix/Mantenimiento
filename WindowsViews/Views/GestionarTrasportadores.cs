@@ -120,17 +120,17 @@ namespace WindowsViews.Views
 
         private void button1_Click(object sender, EventArgs e)
         {
-            AbrirLogeoMaquinasInPanel(new MenuMaquinaria());
+            AbrirLogeoMaquinasInPanel(new MenuTrasportadores());
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            AbrirLogeoMaquinasInPanel(new IngresoMaquinaria());
+            AbrirLogeoMaquinasInPanel(new IngresoTrasportadores());
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            AbrirLogeoMaquinasInPanel(new ListadoMaquinaria());
+            AbrirLogeoMaquinasInPanel(new ListadoTrasportadores());
         }
 
         private void FlechaIzq_Click(object sender, EventArgs e)

@@ -79,6 +79,12 @@
     <Compile Include="Views\HistorialMantencionMaquinaria.Designer.cs">
       <DependentUpon>HistorialMantencionMaquinaria.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\HistorialMantencionTrasportadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\HistorialMantencionTrasportadores.Designer.cs">
+      <DependentUpon>HistorialMantencionTrasportadores.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\IngresoMaquinaria.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +97,12 @@
     <Compile Include="Views\IngresoOT.Designer.cs">
       <DependentUpon>IngresoOT.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\IngresoTrasportadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\IngresoTrasportadores.Designer.cs">
+      <DependentUpon>IngresoTrasportadores.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\IngresoVehiculos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +114,12 @@
     </Compile>
     <Compile Include="Views\ListadoMaquinaria.Designer.cs">
       <DependentUpon>ListadoMaquinaria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ListadoTrasportadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ListadoTrasportadores.Designer.cs">
+      <DependentUpon>ListadoTrasportadores.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\ListadoVehiculos.cs">
       <SubType>Form</SubType>
@@ -156,17 +174,26 @@
     <EmbeddedResource Include="Views\HistorialMantencionMaquinaria.resx">
       <DependentUpon>HistorialMantencionMaquinaria.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\HistorialMantencionTrasportadores.resx">
+      <DependentUpon>HistorialMantencionTrasportadores.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\IngresoMaquinaria.resx">
       <DependentUpon>IngresoMaquinaria.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\IngresoOT.resx">
       <DependentUpon>IngresoOT.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\IngresoTrasportadores.resx">
+      <DependentUpon>IngresoTrasportadores.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\IngresoVehiculos.resx">
       <DependentUpon>IngresoVehiculos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\ListadoMaquinaria.resx">
       <DependentUpon>ListadoMaquinaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ListadoTrasportadores.resx">
+      <DependentUpon>ListadoTrasportadores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\ListadoVehiculos.resx">
       <DependentUpon>ListadoVehiculos.cs</DependentUpon>

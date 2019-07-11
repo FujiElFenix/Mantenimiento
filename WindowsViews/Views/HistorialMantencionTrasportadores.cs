@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsViews.Views
 {
-    public partial class MenuTrasportadores : Form
+    public partial class HistorialMantencionTrasportadores : Form
     {
-        public MenuTrasportadores()
+        public HistorialMantencionTrasportadores()
         {
             InitializeComponent();
         }
