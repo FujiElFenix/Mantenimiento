@@ -231,6 +231,8 @@
             this.ImgProximasMantenciones.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.ImgProximasMantenciones.TabIndex = 0;
             this.ImgProximasMantenciones.TabStop = false;
+            this.ImgProximasMantenciones.MouseLeave += new System.EventHandler(this.ImgProximasMantenciones_MouseLeave);
+            this.ImgProximasMantenciones.MouseHover += new System.EventHandler(this.ImgProximasMantenciones_MouseHover);
             // 
             // ImgOT
             // 
@@ -243,6 +245,8 @@
             this.ImgOT.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.ImgOT.TabIndex = 0;
             this.ImgOT.TabStop = false;
+            this.ImgOT.MouseLeave += new System.EventHandler(this.ImgOT_MouseLeave);
+            this.ImgOT.MouseHover += new System.EventHandler(this.ImgOT_MouseHover);
             // 
             // ImgMantencion
             // 
@@ -255,6 +259,8 @@
             this.ImgMantencion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.ImgMantencion.TabIndex = 0;
             this.ImgMantencion.TabStop = false;
+            this.ImgMantencion.MouseLeave += new System.EventHandler(this.ImgMantencion_MouseLeave);
+            this.ImgMantencion.MouseHover += new System.EventHandler(this.ImgMantencion_MouseHover);
             // 
             // ImgHistorial
             // 
@@ -267,6 +273,8 @@
             this.ImgHistorial.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.ImgHistorial.TabIndex = 0;
             this.ImgHistorial.TabStop = false;
+            this.ImgHistorial.MouseLeave += new System.EventHandler(this.ImgHistorial_MouseLeave);
+            this.ImgHistorial.MouseHover += new System.EventHandler(this.ImgHistorial_MouseHover);
             // 
             // MenuTrasportadores
             // 
