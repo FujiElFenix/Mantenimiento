@@ -64,15 +64,22 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.TxtTrabajoHrs = new System.Windows.Forms.TextBox();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.TxtProcedimientoRealizado = new System.Windows.Forms.TextBox();
+            this.TxtRepuestosUtilizados = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(188)))), ((int)(((byte)(229)))));
+            this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
@@ -93,7 +100,7 @@
             this.panel4.Controls.Add(this.label14);
             this.panel4.Controls.Add(this.DtMantencionReparacion);
             this.panel4.Controls.Add(this.label13);
-            this.panel4.Location = new System.Drawing.Point(381, 188);
+            this.panel4.Location = new System.Drawing.Point(381, 150);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(364, 194);
             this.panel4.TabIndex = 13;
@@ -175,7 +182,7 @@
             this.panel3.Controls.Add(this.label9);
             this.panel3.Controls.Add(this.label8);
             this.panel3.Controls.Add(this.label7);
-            this.panel3.Location = new System.Drawing.Point(24, 188);
+            this.panel3.Location = new System.Drawing.Point(24, 150);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(325, 194);
             this.panel3.TabIndex = 12;
@@ -303,7 +310,7 @@
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(24, 88);
+            this.panel2.Location = new System.Drawing.Point(24, 51);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(721, 78);
             this.panel2.TabIndex = 11;
@@ -399,7 +406,7 @@
             this.label5.BackColor = System.Drawing.Color.White;
             this.label5.Font = new System.Drawing.Font("Rockwell", 17F);
             this.label5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label5.Location = new System.Drawing.Point(220, 32);
+            this.label5.Location = new System.Drawing.Point(217, 12);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(300, 26);
             this.label5.TabIndex = 9;
@@ -422,6 +429,53 @@
             this.TxtTrabajoHrs.Size = new System.Drawing.Size(83, 20);
             this.TxtTrabajoHrs.TabIndex = 32;
             // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.TxtRepuestosUtilizados);
+            this.panel5.Controls.Add(this.TxtProcedimientoRealizado);
+            this.panel5.Controls.Add(this.label19);
+            this.panel5.Controls.Add(this.label18);
+            this.panel5.Location = new System.Drawing.Point(24, 361);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(718, 158);
+            this.panel5.TabIndex = 14;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label18.Location = new System.Drawing.Point(19, 10);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(173, 17);
+            this.label18.TabIndex = 0;
+            this.label18.Text = "Procedimiento Realizado: ";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label19.Location = new System.Drawing.Point(19, 75);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(149, 17);
+            this.label19.TabIndex = 1;
+            this.label19.Text = "Repuestos Utilizados: ";
+            // 
+            // TxtProcedimientoRealizado
+            // 
+            this.TxtProcedimientoRealizado.Location = new System.Drawing.Point(198, 10);
+            this.TxtProcedimientoRealizado.Multiline = true;
+            this.TxtProcedimientoRealizado.Name = "TxtProcedimientoRealizado";
+            this.TxtProcedimientoRealizado.Size = new System.Drawing.Size(500, 59);
+            this.TxtProcedimientoRealizado.TabIndex = 2;
+            // 
+            // TxtRepuestosUtilizados
+            // 
+            this.TxtRepuestosUtilizados.Location = new System.Drawing.Point(198, 75);
+            this.TxtRepuestosUtilizados.Multiline = true;
+            this.TxtRepuestosUtilizados.Name = "TxtRepuestosUtilizados";
+            this.TxtRepuestosUtilizados.Size = new System.Drawing.Size(500, 59);
+            this.TxtRepuestosUtilizados.TabIndex = 3;
+            // 
             // IngresoOT
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -440,6 +494,8 @@
             this.panel3.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -482,5 +538,10 @@
         private System.Windows.Forms.TextBox TxtResponsable;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TextBox TxtTrabajoHrs;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.TextBox TxtRepuestosUtilizados;
+        private System.Windows.Forms.TextBox TxtProcedimientoRealizado;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label18;
     }
 }
