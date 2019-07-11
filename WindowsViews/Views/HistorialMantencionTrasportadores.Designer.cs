@@ -72,7 +72,7 @@
             this.label5.BackColor = System.Drawing.Color.White;
             this.label5.Font = new System.Drawing.Font("Rockwell", 17F);
             this.label5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label5.Location = new System.Drawing.Point(211, 20);
+            this.label5.Location = new System.Drawing.Point(183, 27);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(400, 26);
             this.label5.TabIndex = 16;
