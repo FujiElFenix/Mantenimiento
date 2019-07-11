@@ -61,6 +61,18 @@
     <Compile Include="Views\GestionarVehiculos.Designer.cs">
       <DependentUpon>GestionarVehiculos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\HistorialMantencionesVehiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\HistorialMantencionesVehiculos.Designer.cs">
+      <DependentUpon>HistorialMantencionesVehiculos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\IngresoMaquinaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\IngresoMaquinaria.Designer.cs">
+      <DependentUpon>IngresoMaquinaria.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\IngresoOT.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +84,12 @@
     </Compile>
     <Compile Include="Views\IngresoVehiculos.Designer.cs">
       <DependentUpon>IngresoVehiculos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ListadoMaquinaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ListadoMaquinaria.Designer.cs">
+      <DependentUpon>ListadoMaquinaria.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\ListadoVehiculos.cs">
       <SubType>Form</SubType>
@@ -111,11 +129,20 @@
     <EmbeddedResource Include="Views\GestionarVehiculos.resx">
       <DependentUpon>GestionarVehiculos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\HistorialMantencionesVehiculos.resx">
+      <DependentUpon>HistorialMantencionesVehiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\IngresoMaquinaria.resx">
+      <DependentUpon>IngresoMaquinaria.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\IngresoOT.resx">
       <DependentUpon>IngresoOT.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\IngresoVehiculos.resx">
       <DependentUpon>IngresoVehiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ListadoMaquinaria.resx">
+      <DependentUpon>ListadoMaquinaria.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\ListadoVehiculos.resx">
       <DependentUpon>ListadoVehiculos.cs</DependentUpon>

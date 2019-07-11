@@ -35,31 +35,31 @@
             this.panel8 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.ImgProximasMantenciones = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.ImgOT = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.ImgMantencion = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.ImgProximasMantenciones = new System.Windows.Forms.PictureBox();
+            this.ImgOT = new System.Windows.Forms.PictureBox();
+            this.ImgMantencion = new System.Windows.Forms.PictureBox();
             this.ImgHistorial = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ImgProximasMantenciones)).BeginInit();
             this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ImgOT)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ImgMantencion)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgProximasMantenciones)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgOT)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgMantencion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgHistorial)).BeginInit();
             this.SuspendLayout();
             // 
@@ -109,16 +109,6 @@
             resources.ApplyResources(this.panel9, "panel9");
             this.panel9.Name = "panel9";
             // 
-            // ImgProximasMantenciones
-            // 
-            this.ImgProximasMantenciones.BackColor = System.Drawing.Color.OliveDrab;
-            this.ImgProximasMantenciones.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.ImgProximasMantenciones, "ImgProximasMantenciones");
-            this.ImgProximasMantenciones.Name = "ImgProximasMantenciones";
-            this.ImgProximasMantenciones.TabStop = false;
-            this.ImgProximasMantenciones.MouseLeave += new System.EventHandler(this.ImgProximasMantenciones_MouseLeave);
-            this.ImgProximasMantenciones.MouseHover += new System.EventHandler(this.ImgProximasMantenciones_MouseHover);
-            // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.White;
@@ -138,17 +128,6 @@
             this.panel7.Controls.Add(this.ImgOT);
             resources.ApplyResources(this.panel7, "panel7");
             this.panel7.Name = "panel7";
-            // 
-            // ImgOT
-            // 
-            this.ImgOT.BackColor = System.Drawing.Color.NavajoWhite;
-            this.ImgOT.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.ImgOT, "ImgOT");
-            this.ImgOT.Name = "ImgOT";
-            this.ImgOT.TabStop = false;
-            this.ImgOT.Click += new System.EventHandler(this.ImgOT_Click);
-            this.ImgOT.MouseLeave += new System.EventHandler(this.ImgOT_MouseLeave);
-            this.ImgOT.MouseHover += new System.EventHandler(this.ImgOT_MouseHover);
             // 
             // panel4
             // 
@@ -170,16 +149,6 @@
             resources.ApplyResources(this.panel5, "panel5");
             this.panel5.Name = "panel5";
             // 
-            // ImgMantencion
-            // 
-            this.ImgMantencion.BackColor = System.Drawing.Color.SandyBrown;
-            this.ImgMantencion.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.ImgMantencion, "ImgMantencion");
-            this.ImgMantencion.Name = "ImgMantencion";
-            this.ImgMantencion.TabStop = false;
-            this.ImgMantencion.MouseLeave += new System.EventHandler(this.ImgMantencion_MouseLeave);
-            this.ImgMantencion.MouseHover += new System.EventHandler(this.ImgMantencion_MouseHover);
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
@@ -200,6 +169,37 @@
             resources.ApplyResources(this.panel3, "panel3");
             this.panel3.Name = "panel3";
             // 
+            // ImgProximasMantenciones
+            // 
+            this.ImgProximasMantenciones.BackColor = System.Drawing.Color.OliveDrab;
+            this.ImgProximasMantenciones.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.ImgProximasMantenciones, "ImgProximasMantenciones");
+            this.ImgProximasMantenciones.Name = "ImgProximasMantenciones";
+            this.ImgProximasMantenciones.TabStop = false;
+            this.ImgProximasMantenciones.MouseLeave += new System.EventHandler(this.ImgProximasMantenciones_MouseLeave);
+            this.ImgProximasMantenciones.MouseHover += new System.EventHandler(this.ImgProximasMantenciones_MouseHover);
+            // 
+            // ImgOT
+            // 
+            this.ImgOT.BackColor = System.Drawing.Color.NavajoWhite;
+            this.ImgOT.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.ImgOT, "ImgOT");
+            this.ImgOT.Name = "ImgOT";
+            this.ImgOT.TabStop = false;
+            this.ImgOT.Click += new System.EventHandler(this.ImgOT_Click);
+            this.ImgOT.MouseLeave += new System.EventHandler(this.ImgOT_MouseLeave);
+            this.ImgOT.MouseHover += new System.EventHandler(this.ImgOT_MouseHover);
+            // 
+            // ImgMantencion
+            // 
+            this.ImgMantencion.BackColor = System.Drawing.Color.SandyBrown;
+            this.ImgMantencion.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.ImgMantencion, "ImgMantencion");
+            this.ImgMantencion.Name = "ImgMantencion";
+            this.ImgMantencion.TabStop = false;
+            this.ImgMantencion.MouseLeave += new System.EventHandler(this.ImgMantencion_MouseLeave);
+            this.ImgMantencion.MouseHover += new System.EventHandler(this.ImgMantencion_MouseHover);
+            // 
             // ImgHistorial
             // 
             this.ImgHistorial.BackColor = System.Drawing.Color.Teal;
@@ -207,6 +207,7 @@
             resources.ApplyResources(this.ImgHistorial, "ImgHistorial");
             this.ImgHistorial.Name = "ImgHistorial";
             this.ImgHistorial.TabStop = false;
+            this.ImgHistorial.Click += new System.EventHandler(this.ImgHistorial_Click);
             this.ImgHistorial.MouseLeave += new System.EventHandler(this.ImgHistorial_MouseLeave);
             this.ImgHistorial.MouseHover += new System.EventHandler(this.ImgHistorial_MouseHover);
             // 
@@ -223,18 +224,18 @@
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
             this.panel9.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.ImgProximasMantenciones)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.panel7.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.ImgOT)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.ImgMantencion)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ImgProximasMantenciones)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgOT)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgMantencion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgHistorial)).EndInit();
             this.ResumeLayout(false);
 

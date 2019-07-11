@@ -27,3 +27,6 @@ C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.
 C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.Views.IngresoOT.resources
 C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.Views.IngresoVehiculos.resources
 C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.Views.ListadoVehiculos.resources
+C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.Views.IngresoMaquinaria.resources
+C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.Views.ListadoMaquinaria.resources
+C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.Views.HistorialMantencionesVehiculos.resources

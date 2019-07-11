@@ -68,5 +68,11 @@ namespace WindowsViews.Views
             IngresoOT ingresoot = new IngresoOT();
             ingresoot.Show();
         }
+
+        private void ImgHistorial_Click(object sender, EventArgs e)
+        {
+            HistorialMantencionesVehiculos HMVehiculos = new HistorialMantencionesVehiculos();
+            HMVehiculos.Show();
+        }
     }
 }

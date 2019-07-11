@@ -123,6 +123,16 @@ namespace WindowsViews
         {
             AbrirLogeoMaquinasInPanel(new MenuMaquinaria());
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AbrirLogeoMaquinasInPanel(new IngresoMaquinaria());
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            AbrirLogeoMaquinasInPanel(new ListadoMaquinaria());
+        }
     }
 
 }
