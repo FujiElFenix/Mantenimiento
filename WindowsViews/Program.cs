@@ -17,7 +17,7 @@ namespace WindowsViews
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new GestionarVehiculos());
+            Application.Run(new GestionarTrasportadores());
         }
     }
 }

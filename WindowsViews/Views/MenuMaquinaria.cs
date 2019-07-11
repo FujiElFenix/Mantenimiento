@@ -72,5 +72,11 @@ namespace WindowsViews.Views
             IngresoOT ingresoot = new IngresoOT();
             ingresoot.Show();
         }
+
+        private void ImgHistorial_Click(object sender, EventArgs e)
+        {
+            HistorialMantencionMaquinaria HMMaquinaria = new HistorialMantencionMaquinaria();
+            HMMaquinaria.Show();
+        }
     }
 }

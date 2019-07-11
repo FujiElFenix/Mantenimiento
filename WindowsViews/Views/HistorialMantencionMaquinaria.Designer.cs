@@ -1,6 +1,6 @@
 ﻿namespace WindowsViews.Views
 {
-    partial class HistorialMantencionesVehiculos
+    partial class HistorialMantencionMaquinaria
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.BtnSalir = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.dgHistorialVehiculos = new System.Windows.Forms.DataGridView();
             this.label5 = new System.Windows.Forms.Label();
+            this.BtnSalir = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgHistorialVehiculos)).BeginInit();
@@ -49,30 +49,14 @@
             this.panel1.Size = new System.Drawing.Size(780, 551);
             this.panel1.TabIndex = 0;
             // 
-            // BtnSalir
-            // 
-            this.BtnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnSalir.AutoSize = true;
-            this.BtnSalir.BackColor = System.Drawing.Color.White;
-            this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.BtnSalir.ForeColor = System.Drawing.Color.Maroon;
-            this.BtnSalir.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.BtnSalir.Location = new System.Drawing.Point(751, 0);
-            this.BtnSalir.Name = "BtnSalir";
-            this.BtnSalir.Size = new System.Drawing.Size(26, 25);
-            this.BtnSalir.TabIndex = 16;
-            this.BtnSalir.Text = "X";
-            this.BtnSalir.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Gray;
             this.panel2.Controls.Add(this.dgHistorialVehiculos);
-            this.panel2.Location = new System.Drawing.Point(32, 74);
+            this.panel2.Location = new System.Drawing.Point(45, 73);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(690, 454);
-            this.panel2.TabIndex = 15;
+            this.panel2.TabIndex = 17;
             // 
             // dgHistorialVehiculos
             // 
@@ -88,13 +72,29 @@
             this.label5.BackColor = System.Drawing.Color.White;
             this.label5.Font = new System.Drawing.Font("Rockwell", 17F);
             this.label5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label5.Location = new System.Drawing.Point(218, 25);
+            this.label5.Location = new System.Drawing.Point(219, 24);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(342, 26);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "Historial Mantencion Vehiculos";
+            this.label5.Size = new System.Drawing.Size(357, 26);
+            this.label5.TabIndex = 16;
+            this.label5.Text = "Historial Mantencion Maquinaria";
             // 
-            // HistorialMantencionesVehiculos
+            // BtnSalir
+            // 
+            this.BtnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.BtnSalir.AutoSize = true;
+            this.BtnSalir.BackColor = System.Drawing.Color.White;
+            this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.BtnSalir.ForeColor = System.Drawing.Color.Maroon;
+            this.BtnSalir.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.BtnSalir.Location = new System.Drawing.Point(751, 0);
+            this.BtnSalir.Name = "BtnSalir";
+            this.BtnSalir.Size = new System.Drawing.Size(26, 25);
+            this.BtnSalir.TabIndex = 18;
+            this.BtnSalir.Text = "X";
+            this.BtnSalir.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
+            // 
+            // HistorialMantencionMaquinaria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -102,8 +102,8 @@
             this.ClientSize = new System.Drawing.Size(804, 575);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "HistorialMantencionesVehiculos";
-            this.Text = "HistorialVehiculos";
+            this.Name = "HistorialMantencionMaquinaria";
+            this.Text = "HistorialMantencionMaquinaria";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -115,9 +115,9 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label BtnSalir;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.DataGridView dgHistorialVehiculos;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label BtnSalir;
     }
 }
