@@ -457,6 +457,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MantencionTrasportadores";
             this.Text = "MantencionTrasportadores";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MantencionTrasportadores_MouseDown);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel4.ResumeLayout(false);

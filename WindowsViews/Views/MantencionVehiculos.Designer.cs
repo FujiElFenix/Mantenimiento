@@ -385,6 +385,7 @@
             this.BtnAgregarMantencion.Text = "Agregar";
             this.BtnAgregarMantencion.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnAgregarMantencion.UseVisualStyleBackColor = true;
+            this.BtnAgregarMantencion.Click += new System.EventHandler(this.BtnAgregarMantencion_Click);
             // 
             // BtnEliminar
             // 
