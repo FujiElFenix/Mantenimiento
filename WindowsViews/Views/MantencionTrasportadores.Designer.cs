@@ -30,18 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MantencionTrasportadores));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.DgvListadoMaquinaria = new System.Windows.Forms.DataGridView();
-            this.BtnModificar = new System.Windows.Forms.Button();
-            this.BtnNuevaMaquina = new System.Windows.Forms.Button();
-            this.BtnBuscar = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.BtnEliminar = new System.Windows.Forms.Button();
-            this.BtnModificarDetalleMaquina = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label2 = new System.Windows.Forms.Label();
+            this.BtnSalir = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.RbExterna = new System.Windows.Forms.RadioButton();
             this.BtnAgregarMantencion = new System.Windows.Forms.Button();
@@ -64,13 +53,24 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.BtnSalir = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.BtnEliminar = new System.Windows.Forms.Button();
+            this.BtnModificarDetalleMaquina = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.BtnModificar = new System.Windows.Forms.Button();
+            this.BtnNuevaMaquina = new System.Windows.Forms.Button();
+            this.BtnBuscar = new System.Windows.Forms.Button();
+            this.DgvListadoMaquinaria = new System.Windows.Forms.DataGridView();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DgvListadoMaquinaria)).BeginInit();
+            this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.panel4.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DgvListadoMaquinaria)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -86,137 +86,21 @@
             this.panel1.Size = new System.Drawing.Size(780, 551);
             this.panel1.TabIndex = 0;
             // 
-            // label5
+            // BtnSalir
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.White;
-            this.label5.Font = new System.Drawing.Font("Rockwell", 17F);
-            this.label5.Location = new System.Drawing.Point(231, 11);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(304, 26);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Mantencion Trasportadores";
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.BtnModificar);
-            this.panel2.Controls.Add(this.BtnNuevaMaquina);
-            this.panel2.Controls.Add(this.BtnBuscar);
-            this.panel2.Controls.Add(this.DgvListadoMaquinaria);
-            this.panel2.Location = new System.Drawing.Point(14, 51);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(349, 287);
-            this.panel2.TabIndex = 6;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Font = new System.Drawing.Font("Rockwell", 17F);
-            this.label1.Location = new System.Drawing.Point(46, 10);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(257, 26);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Listado Trasportadores";
-            // 
-            // DgvListadoMaquinaria
-            // 
-            this.DgvListadoMaquinaria.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DgvListadoMaquinaria.Location = new System.Drawing.Point(3, 39);
-            this.DgvListadoMaquinaria.Name = "DgvListadoMaquinaria";
-            this.DgvListadoMaquinaria.Size = new System.Drawing.Size(343, 194);
-            this.DgvListadoMaquinaria.TabIndex = 0;
-            // 
-            // BtnModificar
-            // 
-            this.BtnModificar.Image = ((System.Drawing.Image)(resources.GetObject("BtnModificar.Image")));
-            this.BtnModificar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnModificar.Location = new System.Drawing.Point(257, 239);
-            this.BtnModificar.Name = "BtnModificar";
-            this.BtnModificar.Size = new System.Drawing.Size(89, 40);
-            this.BtnModificar.TabIndex = 3;
-            this.BtnModificar.Text = "Modificar";
-            this.BtnModificar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BtnModificar.UseVisualStyleBackColor = true;
-            // 
-            // BtnNuevaMaquina
-            // 
-            this.BtnNuevaMaquina.Image = ((System.Drawing.Image)(resources.GetObject("BtnNuevaMaquina.Image")));
-            this.BtnNuevaMaquina.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnNuevaMaquina.Location = new System.Drawing.Point(115, 239);
-            this.BtnNuevaMaquina.Name = "BtnNuevaMaquina";
-            this.BtnNuevaMaquina.Size = new System.Drawing.Size(106, 40);
-            this.BtnNuevaMaquina.TabIndex = 2;
-            this.BtnNuevaMaquina.Text = "Nuevo Trasportador";
-            this.BtnNuevaMaquina.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BtnNuevaMaquina.UseVisualStyleBackColor = true;
-            // 
-            // BtnBuscar
-            // 
-            this.BtnBuscar.Image = ((System.Drawing.Image)(resources.GetObject("BtnBuscar.Image")));
-            this.BtnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnBuscar.Location = new System.Drawing.Point(3, 239);
-            this.BtnBuscar.Name = "BtnBuscar";
-            this.BtnBuscar.Size = new System.Drawing.Size(81, 40);
-            this.BtnBuscar.TabIndex = 1;
-            this.BtnBuscar.Text = "Buscar";
-            this.BtnBuscar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BtnBuscar.UseVisualStyleBackColor = true;
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.BtnEliminar);
-            this.panel3.Controls.Add(this.BtnModificarDetalleMaquina);
-            this.panel3.Controls.Add(this.dataGridView1);
-            this.panel3.Controls.Add(this.label2);
-            this.panel3.Location = new System.Drawing.Point(393, 51);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(361, 287);
-            this.panel3.TabIndex = 7;
-            // 
-            // BtnEliminar
-            // 
-            this.BtnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("BtnEliminar.Image")));
-            this.BtnEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnEliminar.Location = new System.Drawing.Point(243, 239);
-            this.BtnEliminar.Name = "BtnEliminar";
-            this.BtnEliminar.Size = new System.Drawing.Size(85, 40);
-            this.BtnEliminar.TabIndex = 9;
-            this.BtnEliminar.Text = "Eliminar";
-            this.BtnEliminar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BtnEliminar.UseVisualStyleBackColor = true;
-            // 
-            // BtnModificarDetalleMaquina
-            // 
-            this.BtnModificarDetalleMaquina.Image = ((System.Drawing.Image)(resources.GetObject("BtnModificarDetalleMaquina.Image")));
-            this.BtnModificarDetalleMaquina.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnModificarDetalleMaquina.Location = new System.Drawing.Point(46, 239);
-            this.BtnModificarDetalleMaquina.Name = "BtnModificarDetalleMaquina";
-            this.BtnModificarDetalleMaquina.Size = new System.Drawing.Size(94, 40);
-            this.BtnModificarDetalleMaquina.TabIndex = 8;
-            this.BtnModificarDetalleMaquina.Text = "Modificar";
-            this.BtnModificarDetalleMaquina.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BtnModificarDetalleMaquina.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 39);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(355, 194);
-            this.dataGridView1.TabIndex = 7;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.White;
-            this.label2.Font = new System.Drawing.Font("Rockwell", 17F);
-            this.label2.Location = new System.Drawing.Point(71, 10);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(257, 26);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Detalle Trasportadores";
+            this.BtnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.BtnSalir.AutoSize = true;
+            this.BtnSalir.BackColor = System.Drawing.Color.White;
+            this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.BtnSalir.ForeColor = System.Drawing.Color.Maroon;
+            this.BtnSalir.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.BtnSalir.Location = new System.Drawing.Point(754, 0);
+            this.BtnSalir.Name = "BtnSalir";
+            this.BtnSalir.Size = new System.Drawing.Size(26, 25);
+            this.BtnSalir.TabIndex = 32;
+            this.BtnSalir.Text = "X";
+            this.BtnSalir.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
             // panel4
             // 
@@ -268,6 +152,7 @@
             this.BtnAgregarMantencion.Text = "Agregar";
             this.BtnAgregarMantencion.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnAgregarMantencion.UseVisualStyleBackColor = true;
+            this.BtnAgregarMantencion.Click += new System.EventHandler(this.BtnAgregarMantencion_Click);
             // 
             // RbInterna
             // 
@@ -308,6 +193,7 @@
             this.TxtDiasFaltantes.Name = "TxtDiasFaltantes";
             this.TxtDiasFaltantes.Size = new System.Drawing.Size(161, 20);
             this.TxtDiasFaltantes.TabIndex = 24;
+            this.TxtDiasFaltantes.TextChanged += new System.EventHandler(this.TxtDiasFaltantes_TextChanged);
             // 
             // TxtDescripcion
             // 
@@ -429,21 +315,137 @@
             this.label3.TabIndex = 7;
             this.label3.Text = "Agregar Mantencion a los Trasportadores";
             // 
-            // BtnSalir
+            // panel3
             // 
-            this.BtnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnSalir.AutoSize = true;
-            this.BtnSalir.BackColor = System.Drawing.Color.White;
-            this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.BtnSalir.ForeColor = System.Drawing.Color.Maroon;
-            this.BtnSalir.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.BtnSalir.Location = new System.Drawing.Point(754, 0);
-            this.BtnSalir.Name = "BtnSalir";
-            this.BtnSalir.Size = new System.Drawing.Size(26, 25);
-            this.BtnSalir.TabIndex = 32;
-            this.BtnSalir.Text = "X";
-            this.BtnSalir.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
+            this.panel3.Controls.Add(this.BtnEliminar);
+            this.panel3.Controls.Add(this.BtnModificarDetalleMaquina);
+            this.panel3.Controls.Add(this.dataGridView1);
+            this.panel3.Controls.Add(this.label2);
+            this.panel3.Location = new System.Drawing.Point(393, 51);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(361, 287);
+            this.panel3.TabIndex = 7;
+            // 
+            // BtnEliminar
+            // 
+            this.BtnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("BtnEliminar.Image")));
+            this.BtnEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnEliminar.Location = new System.Drawing.Point(243, 239);
+            this.BtnEliminar.Name = "BtnEliminar";
+            this.BtnEliminar.Size = new System.Drawing.Size(85, 40);
+            this.BtnEliminar.TabIndex = 9;
+            this.BtnEliminar.Text = "Eliminar";
+            this.BtnEliminar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnEliminar.UseVisualStyleBackColor = true;
+            // 
+            // BtnModificarDetalleMaquina
+            // 
+            this.BtnModificarDetalleMaquina.Image = ((System.Drawing.Image)(resources.GetObject("BtnModificarDetalleMaquina.Image")));
+            this.BtnModificarDetalleMaquina.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnModificarDetalleMaquina.Location = new System.Drawing.Point(46, 239);
+            this.BtnModificarDetalleMaquina.Name = "BtnModificarDetalleMaquina";
+            this.BtnModificarDetalleMaquina.Size = new System.Drawing.Size(94, 40);
+            this.BtnModificarDetalleMaquina.TabIndex = 8;
+            this.BtnModificarDetalleMaquina.Text = "Modificar";
+            this.BtnModificarDetalleMaquina.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnModificarDetalleMaquina.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(3, 39);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(355, 194);
+            this.dataGridView1.TabIndex = 7;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.Font = new System.Drawing.Font("Rockwell", 17F);
+            this.label2.Location = new System.Drawing.Point(71, 10);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(257, 26);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Detalle Trasportadores";
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.BtnModificar);
+            this.panel2.Controls.Add(this.BtnNuevaMaquina);
+            this.panel2.Controls.Add(this.BtnBuscar);
+            this.panel2.Controls.Add(this.DgvListadoMaquinaria);
+            this.panel2.Location = new System.Drawing.Point(14, 51);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(349, 287);
+            this.panel2.TabIndex = 6;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.Font = new System.Drawing.Font("Rockwell", 17F);
+            this.label1.Location = new System.Drawing.Point(46, 10);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(257, 26);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Listado Trasportadores";
+            // 
+            // BtnModificar
+            // 
+            this.BtnModificar.Image = ((System.Drawing.Image)(resources.GetObject("BtnModificar.Image")));
+            this.BtnModificar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnModificar.Location = new System.Drawing.Point(257, 239);
+            this.BtnModificar.Name = "BtnModificar";
+            this.BtnModificar.Size = new System.Drawing.Size(89, 40);
+            this.BtnModificar.TabIndex = 3;
+            this.BtnModificar.Text = "Modificar";
+            this.BtnModificar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnModificar.UseVisualStyleBackColor = true;
+            // 
+            // BtnNuevaMaquina
+            // 
+            this.BtnNuevaMaquina.Image = ((System.Drawing.Image)(resources.GetObject("BtnNuevaMaquina.Image")));
+            this.BtnNuevaMaquina.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnNuevaMaquina.Location = new System.Drawing.Point(115, 239);
+            this.BtnNuevaMaquina.Name = "BtnNuevaMaquina";
+            this.BtnNuevaMaquina.Size = new System.Drawing.Size(106, 40);
+            this.BtnNuevaMaquina.TabIndex = 2;
+            this.BtnNuevaMaquina.Text = "Nuevo Trasportador";
+            this.BtnNuevaMaquina.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnNuevaMaquina.UseVisualStyleBackColor = true;
+            // 
+            // BtnBuscar
+            // 
+            this.BtnBuscar.Image = ((System.Drawing.Image)(resources.GetObject("BtnBuscar.Image")));
+            this.BtnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnBuscar.Location = new System.Drawing.Point(3, 239);
+            this.BtnBuscar.Name = "BtnBuscar";
+            this.BtnBuscar.Size = new System.Drawing.Size(81, 40);
+            this.BtnBuscar.TabIndex = 1;
+            this.BtnBuscar.Text = "Buscar";
+            this.BtnBuscar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnBuscar.UseVisualStyleBackColor = true;
+            // 
+            // DgvListadoMaquinaria
+            // 
+            this.DgvListadoMaquinaria.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DgvListadoMaquinaria.Location = new System.Drawing.Point(3, 39);
+            this.DgvListadoMaquinaria.Name = "DgvListadoMaquinaria";
+            this.DgvListadoMaquinaria.Size = new System.Drawing.Size(343, 194);
+            this.DgvListadoMaquinaria.TabIndex = 0;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.White;
+            this.label5.Font = new System.Drawing.Font("Rockwell", 17F);
+            this.label5.Location = new System.Drawing.Point(231, 11);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(304, 26);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "Mantencion Trasportadores";
             // 
             // MantencionTrasportadores
             // 
@@ -457,14 +459,14 @@
             this.Text = "MantencionTrasportadores";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DgvListadoMaquinaria)).EndInit();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DgvListadoMaquinaria)).EndInit();
             this.ResumeLayout(false);
 
         }

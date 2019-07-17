@@ -312,6 +312,7 @@
             this.TxtDiasFaltantes.Name = "TxtDiasFaltantes";
             this.TxtDiasFaltantes.Size = new System.Drawing.Size(161, 20);
             this.TxtDiasFaltantes.TabIndex = 24;
+            this.TxtDiasFaltantes.TextChanged += new System.EventHandler(this.TxtDiasFaltantes_TextChanged);
             // 
             // CboFrecuencia
             // 
@@ -384,6 +385,7 @@
             this.BtnAgregarMantencion.Text = "Agregar";
             this.BtnAgregarMantencion.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnAgregarMantencion.UseVisualStyleBackColor = true;
+            this.BtnAgregarMantencion.Click += new System.EventHandler(this.BtnAgregarMantencion_Click);
             // 
             // BtnEliminar
             // 
