@@ -30,6 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuPrincipal));
             this.MenuVertical = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.BtnGestionTrasportadores = new System.Windows.Forms.Button();
             this.BtnGestionVehiculos = new System.Windows.Forms.Button();
             this.BtnGestionMaquinas = new System.Windows.Forms.Button();
@@ -42,9 +45,6 @@
             this.IcoCerrar = new System.Windows.Forms.PictureBox();
             this.FlechaIzq = new System.Windows.Forms.PictureBox();
             this.panelContenedor = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.MenuVertical.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -71,6 +71,30 @@
             this.MenuVertical.Name = "MenuVertical";
             this.MenuVertical.Size = new System.Drawing.Size(352, 634);
             this.MenuVertical.TabIndex = 0;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(188)))), ((int)(((byte)(229)))));
+            this.panel4.Location = new System.Drawing.Point(16, 188);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(10, 40);
+            this.panel4.TabIndex = 5;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(188)))), ((int)(((byte)(229)))));
+            this.panel3.Location = new System.Drawing.Point(16, 142);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(10, 40);
+            this.panel3.TabIndex = 5;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(188)))), ((int)(((byte)(229)))));
+            this.panel2.Location = new System.Drawing.Point(16, 96);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(10, 40);
+            this.panel2.TabIndex = 4;
             // 
             // BtnGestionTrasportadores
             // 
@@ -232,30 +256,6 @@
             this.panelContenedor.Name = "panelContenedor";
             this.panelContenedor.Size = new System.Drawing.Size(804, 584);
             this.panelContenedor.TabIndex = 2;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(188)))), ((int)(((byte)(229)))));
-            this.panel2.Location = new System.Drawing.Point(16, 96);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(10, 40);
-            this.panel2.TabIndex = 4;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(188)))), ((int)(((byte)(229)))));
-            this.panel3.Location = new System.Drawing.Point(16, 142);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(10, 40);
-            this.panel3.TabIndex = 5;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(188)))), ((int)(((byte)(229)))));
-            this.panel4.Location = new System.Drawing.Point(16, 188);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(10, 40);
-            this.panel4.TabIndex = 5;
             // 
             // MenuPrincipal
             // 

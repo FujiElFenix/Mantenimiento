@@ -35,31 +35,31 @@
             this.panel8 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.ImgProximasMantenciones = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.ImgOT = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.ImgMantencion = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.ImgProximasMantenciones = new System.Windows.Forms.PictureBox();
-            this.ImgOT = new System.Windows.Forms.PictureBox();
-            this.ImgMantencion = new System.Windows.Forms.PictureBox();
             this.ImgHistorial = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgProximasMantenciones)).BeginInit();
             this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgOT)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgMantencion)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ImgProximasMantenciones)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ImgOT)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ImgMantencion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgHistorial)).BeginInit();
             this.SuspendLayout();
             // 
@@ -133,6 +133,20 @@
             this.panel9.Size = new System.Drawing.Size(255, 122);
             this.panel9.TabIndex = 0;
             // 
+            // ImgProximasMantenciones
+            // 
+            this.ImgProximasMantenciones.BackColor = System.Drawing.Color.OliveDrab;
+            this.ImgProximasMantenciones.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ImgProximasMantenciones.Image = ((System.Drawing.Image)(resources.GetObject("ImgProximasMantenciones.Image")));
+            this.ImgProximasMantenciones.Location = new System.Drawing.Point(3, 3);
+            this.ImgProximasMantenciones.Name = "ImgProximasMantenciones";
+            this.ImgProximasMantenciones.Size = new System.Drawing.Size(249, 94);
+            this.ImgProximasMantenciones.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ImgProximasMantenciones.TabIndex = 0;
+            this.ImgProximasMantenciones.TabStop = false;
+            this.ImgProximasMantenciones.MouseLeave += new System.EventHandler(this.ImgProximasMantenciones_MouseLeave);
+            this.ImgProximasMantenciones.MouseHover += new System.EventHandler(this.ImgProximasMantenciones_MouseHover);
+            // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.White;
@@ -161,6 +175,21 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(255, 122);
             this.panel7.TabIndex = 0;
+            // 
+            // ImgOT
+            // 
+            this.ImgOT.BackColor = System.Drawing.Color.NavajoWhite;
+            this.ImgOT.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ImgOT.Image = ((System.Drawing.Image)(resources.GetObject("ImgOT.Image")));
+            this.ImgOT.Location = new System.Drawing.Point(3, 3);
+            this.ImgOT.Name = "ImgOT";
+            this.ImgOT.Size = new System.Drawing.Size(249, 94);
+            this.ImgOT.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ImgOT.TabIndex = 0;
+            this.ImgOT.TabStop = false;
+            this.ImgOT.Click += new System.EventHandler(this.ImgOT_Click);
+            this.ImgOT.MouseLeave += new System.EventHandler(this.ImgOT_MouseLeave);
+            this.ImgOT.MouseHover += new System.EventHandler(this.ImgOT_MouseHover);
             // 
             // panel4
             // 
@@ -191,6 +220,20 @@
             this.panel5.Size = new System.Drawing.Size(255, 122);
             this.panel5.TabIndex = 0;
             // 
+            // ImgMantencion
+            // 
+            this.ImgMantencion.BackColor = System.Drawing.Color.SandyBrown;
+            this.ImgMantencion.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ImgMantencion.Image = ((System.Drawing.Image)(resources.GetObject("ImgMantencion.Image")));
+            this.ImgMantencion.Location = new System.Drawing.Point(3, 3);
+            this.ImgMantencion.Name = "ImgMantencion";
+            this.ImgMantencion.Size = new System.Drawing.Size(249, 94);
+            this.ImgMantencion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ImgMantencion.TabIndex = 0;
+            this.ImgMantencion.TabStop = false;
+            this.ImgMantencion.MouseLeave += new System.EventHandler(this.ImgMantencion_MouseLeave);
+            this.ImgMantencion.MouseHover += new System.EventHandler(this.ImgMantencion_MouseHover);
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
@@ -219,48 +262,6 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(255, 122);
             this.panel3.TabIndex = 0;
-            // 
-            // ImgProximasMantenciones
-            // 
-            this.ImgProximasMantenciones.BackColor = System.Drawing.Color.OliveDrab;
-            this.ImgProximasMantenciones.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ImgProximasMantenciones.Image = ((System.Drawing.Image)(resources.GetObject("ImgProximasMantenciones.Image")));
-            this.ImgProximasMantenciones.Location = new System.Drawing.Point(3, 3);
-            this.ImgProximasMantenciones.Name = "ImgProximasMantenciones";
-            this.ImgProximasMantenciones.Size = new System.Drawing.Size(249, 94);
-            this.ImgProximasMantenciones.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.ImgProximasMantenciones.TabIndex = 0;
-            this.ImgProximasMantenciones.TabStop = false;
-            this.ImgProximasMantenciones.MouseLeave += new System.EventHandler(this.ImgProximasMantenciones_MouseLeave);
-            this.ImgProximasMantenciones.MouseHover += new System.EventHandler(this.ImgProximasMantenciones_MouseHover);
-            // 
-            // ImgOT
-            // 
-            this.ImgOT.BackColor = System.Drawing.Color.NavajoWhite;
-            this.ImgOT.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ImgOT.Image = ((System.Drawing.Image)(resources.GetObject("ImgOT.Image")));
-            this.ImgOT.Location = new System.Drawing.Point(3, 3);
-            this.ImgOT.Name = "ImgOT";
-            this.ImgOT.Size = new System.Drawing.Size(249, 94);
-            this.ImgOT.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.ImgOT.TabIndex = 0;
-            this.ImgOT.TabStop = false;
-            this.ImgOT.MouseLeave += new System.EventHandler(this.ImgOT_MouseLeave);
-            this.ImgOT.MouseHover += new System.EventHandler(this.ImgOT_MouseHover);
-            // 
-            // ImgMantencion
-            // 
-            this.ImgMantencion.BackColor = System.Drawing.Color.SandyBrown;
-            this.ImgMantencion.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ImgMantencion.Image = ((System.Drawing.Image)(resources.GetObject("ImgMantencion.Image")));
-            this.ImgMantencion.Location = new System.Drawing.Point(3, 3);
-            this.ImgMantencion.Name = "ImgMantencion";
-            this.ImgMantencion.Size = new System.Drawing.Size(249, 94);
-            this.ImgMantencion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.ImgMantencion.TabIndex = 0;
-            this.ImgMantencion.TabStop = false;
-            this.ImgMantencion.MouseLeave += new System.EventHandler(this.ImgMantencion_MouseLeave);
-            this.ImgMantencion.MouseHover += new System.EventHandler(this.ImgMantencion_MouseHover);
             // 
             // ImgHistorial
             // 
@@ -291,18 +292,18 @@
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
             this.panel9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ImgProximasMantenciones)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.panel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ImgOT)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ImgMantencion)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.ImgProximasMantenciones)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ImgOT)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ImgMantencion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgHistorial)).EndInit();
             this.ResumeLayout(false);
 

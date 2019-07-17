@@ -121,5 +121,7 @@ namespace WindowsViews
         {
             AbrirLogeoMaquinasInPanel(new Login());
         }
+
+       
     }
 }
