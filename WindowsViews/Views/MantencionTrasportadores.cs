@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using System.Drawing;
+using System.IO;
+
 
 namespace WindowsViews.Views
 {
@@ -40,6 +43,7 @@ namespace WindowsViews.Views
         
         private void BtnAgregarMantencion_Click(object sender, EventArgs e)
         {
+
             try
             {
                 DateTime fecha = new DateTime(2019, 07, 17);
@@ -58,15 +62,31 @@ namespace WindowsViews.Views
             {
                 MessageBox.Show(ex.Message);
             }
-            
 
+            MostrarNotificacion();
             
+        }
+
+        public void MostrarNotificacion()
+        {
+
+            Notificacion.Icon = new System.Drawing.Icon(Path.GetFullPath(@"C:\Users\ffranco\Pictures\imagenes Proyectos\Mantenimiento\Custom-Icon-Design-Flatastic-1-Alert.ico"));
+            Notificacion.Text = "EJEMPLO Text";
+            Notificacion.Visible = true;
+            Notificacion.BalloonTipTitle = "Proxima Mantencion!";
+            Notificacion.BalloonTipText = ("La siguiente mantencion es en " + TxtDiasFaltantes);
+            Notificacion.ShowBalloonTip(100);
         }
 
         private void MantencionTrasportadores_MouseDown(object sender, MouseEventArgs e)
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+
         }
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MantencionTrasportadores));
             this.panel1 = new System.Windows.Forms.Panel();
             this.BtnSalir = new System.Windows.Forms.Label();
@@ -65,6 +66,7 @@
             this.BtnBuscar = new System.Windows.Forms.Button();
             this.DgvListadoMaquinaria = new System.Windows.Forms.DataGridView();
             this.label5 = new System.Windows.Forms.Label();
+            this.Notificacion = new System.Windows.Forms.NotifyIcon(this.components);
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -454,6 +456,12 @@
             this.label5.TabIndex = 5;
             this.label5.Text = "Mantencion Trasportadores";
             // 
+            // Notificacion
+            // 
+            this.Notificacion.BalloonTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.Notificacion.Visible = true;
+            this.Notificacion.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseDoubleClick);
+            // 
             // MantencionTrasportadores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -517,5 +525,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label BtnSalir;
+        private System.Windows.Forms.NotifyIcon Notificacion;
     }
 }
