@@ -82,6 +82,7 @@
             this.BtnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BtnSalir.AutoSize = true;
             this.BtnSalir.BackColor = System.Drawing.Color.White;
+            this.BtnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
             this.BtnSalir.ForeColor = System.Drawing.Color.Maroon;
             this.BtnSalir.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -276,6 +277,7 @@
             this.ImgHistorial.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.ImgHistorial.TabIndex = 0;
             this.ImgHistorial.TabStop = false;
+            this.ImgHistorial.Click += new System.EventHandler(this.ImgHistorial_Click);
             this.ImgHistorial.MouseLeave += new System.EventHandler(this.ImgHistorial_MouseLeave);
             this.ImgHistorial.MouseHover += new System.EventHandler(this.ImgHistorial_MouseHover);
             // 

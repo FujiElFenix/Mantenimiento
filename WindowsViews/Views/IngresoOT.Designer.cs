@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IngresoOT));
             this.panel1 = new System.Windows.Forms.Panel();
             this.BtnSalir = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -70,6 +71,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -80,6 +82,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(188)))), ((int)(((byte)(229)))));
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.BtnSalir);
             this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.panel4);
@@ -96,6 +99,7 @@
             this.BtnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BtnSalir.AutoSize = true;
             this.BtnSalir.BackColor = System.Drawing.Color.White;
+            this.BtnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
             this.BtnSalir.ForeColor = System.Drawing.Color.Maroon;
             this.BtnSalir.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -115,7 +119,7 @@
             this.panel5.Controls.Add(this.label18);
             this.panel5.Location = new System.Drawing.Point(24, 361);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(718, 158);
+            this.panel5.Size = new System.Drawing.Size(718, 140);
             this.panel5.TabIndex = 14;
             // 
             // TxtRepuestosUtilizados
@@ -494,6 +498,20 @@
             this.label5.TabIndex = 9;
             this.label5.Text = "Ingresar Orden De Trabajo";
             // 
+            // button1
+            // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(24, 501);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(177, 47);
+            this.button1.TabIndex = 34;
+            this.button1.Text = "Agregar Orden De Trabajo";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // IngresoOT
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -563,5 +581,6 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label BtnSalir;
+        private System.Windows.Forms.Button button1;
     }
 }

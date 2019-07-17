@@ -79,5 +79,11 @@ namespace WindowsViews.Views
             ProximasMantencionesTrasportadores PMTrasportadores = new ProximasMantencionesTrasportadores();
             PMTrasportadores.Show();
         }
+
+        private void ImgHistorial_Click(object sender, EventArgs e)
+        {
+            HistorialMantencionesVehiculos HMVehiculos = new HistorialMantencionesVehiculos();
+            HMVehiculos.Show();
+        }
     }
 }

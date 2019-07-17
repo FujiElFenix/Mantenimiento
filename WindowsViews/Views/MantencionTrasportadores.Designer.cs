@@ -91,6 +91,7 @@
             this.BtnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BtnSalir.AutoSize = true;
             this.BtnSalir.BackColor = System.Drawing.Color.White;
+            this.BtnSalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
             this.BtnSalir.ForeColor = System.Drawing.Color.Maroon;
             this.BtnSalir.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -143,6 +144,7 @@
             // 
             // BtnAgregarMantencion
             // 
+            this.BtnAgregarMantencion.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnAgregarMantencion.Image = ((System.Drawing.Image)(resources.GetObject("BtnAgregarMantencion.Image")));
             this.BtnAgregarMantencion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnAgregarMantencion.Location = new System.Drawing.Point(3, 133);
@@ -328,6 +330,7 @@
             // 
             // BtnEliminar
             // 
+            this.BtnEliminar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("BtnEliminar.Image")));
             this.BtnEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnEliminar.Location = new System.Drawing.Point(243, 239);
@@ -340,6 +343,7 @@
             // 
             // BtnModificarDetalleMaquina
             // 
+            this.BtnModificarDetalleMaquina.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnModificarDetalleMaquina.Image = ((System.Drawing.Image)(resources.GetObject("BtnModificarDetalleMaquina.Image")));
             this.BtnModificarDetalleMaquina.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnModificarDetalleMaquina.Location = new System.Drawing.Point(46, 239);
@@ -394,6 +398,7 @@
             // 
             // BtnModificar
             // 
+            this.BtnModificar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnModificar.Image = ((System.Drawing.Image)(resources.GetObject("BtnModificar.Image")));
             this.BtnModificar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnModificar.Location = new System.Drawing.Point(257, 239);
@@ -406,6 +411,7 @@
             // 
             // BtnNuevaMaquina
             // 
+            this.BtnNuevaMaquina.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnNuevaMaquina.Image = ((System.Drawing.Image)(resources.GetObject("BtnNuevaMaquina.Image")));
             this.BtnNuevaMaquina.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnNuevaMaquina.Location = new System.Drawing.Point(115, 239);
@@ -418,6 +424,7 @@
             // 
             // BtnBuscar
             // 
+            this.BtnBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnBuscar.Image = ((System.Drawing.Image)(resources.GetObject("BtnBuscar.Image")));
             this.BtnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnBuscar.Location = new System.Drawing.Point(3, 239);

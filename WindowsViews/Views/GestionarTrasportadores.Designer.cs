@@ -30,32 +30,32 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GestionarTrasportadores));
             this.MenuVertical = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panelContenedor = new System.Windows.Forms.Panel();
+            this.IcoRestaurar = new System.Windows.Forms.PictureBox();
+            this.IcoMaximizar = new System.Windows.Forms.PictureBox();
+            this.IcoCerrar = new System.Windows.Forms.PictureBox();
+            this.IcoMinimizar = new System.Windows.Forms.PictureBox();
+            this.FlechaDerecha = new System.Windows.Forms.PictureBox();
             this.FlechaIzq = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.FlechaDerecha = new System.Windows.Forms.PictureBox();
-            this.IcoMinimizar = new System.Windows.Forms.PictureBox();
-            this.IcoRestaurar = new System.Windows.Forms.PictureBox();
-            this.IcoMaximizar = new System.Windows.Forms.PictureBox();
-            this.IcoCerrar = new System.Windows.Forms.PictureBox();
             this.MenuVertical.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.FlechaIzq)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FlechaDerecha)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.IcoMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.IcoRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.IcoMaximizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.IcoCerrar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.IcoMinimizar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FlechaDerecha)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FlechaIzq)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // MenuVertical
@@ -71,14 +71,6 @@
             this.MenuVertical.Size = new System.Drawing.Size(352, 634);
             this.MenuVertical.TabIndex = 0;
             // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(188)))), ((int)(((byte)(229)))));
-            this.panel4.Location = new System.Drawing.Point(3, 3);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(10, 40);
-            this.panel4.TabIndex = 4;
-            // 
             // panel3
             // 
             this.panel3.Controls.Add(this.panel4);
@@ -89,6 +81,14 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(327, 117);
             this.panel3.TabIndex = 4;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(188)))), ((int)(((byte)(229)))));
+            this.panel4.Location = new System.Drawing.Point(3, 3);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(10, 40);
+            this.panel4.TabIndex = 4;
             // 
             // panel5
             // 
@@ -128,104 +128,6 @@
             this.panelContenedor.Name = "panelContenedor";
             this.panelContenedor.Size = new System.Drawing.Size(804, 584);
             this.panelContenedor.TabIndex = 2;
-            // 
-            // FlechaIzq
-            // 
-            this.FlechaIzq.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.FlechaIzq.Image = ((System.Drawing.Image)(resources.GetObject("FlechaIzq.Image")));
-            this.FlechaIzq.Location = new System.Drawing.Point(6, 4);
-            this.FlechaIzq.Name = "FlechaIzq";
-            this.FlechaIzq.Size = new System.Drawing.Size(51, 41);
-            this.FlechaIzq.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.FlechaIzq.TabIndex = 5;
-            this.FlechaIzq.TabStop = false;
-            this.FlechaIzq.Click += new System.EventHandler(this.FlechaIzq_Click);
-            // 
-            // button3
-            // 
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(6, 46);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(343, 40);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Consulta";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button2
-            // 
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(6, 0);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(343, 40);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Ingreso ";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button1
-            // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(19, 96);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(362, 40);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Gestion Trasportadores";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(328, 78);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // FlechaDerecha
-            // 
-            this.FlechaDerecha.Image = ((System.Drawing.Image)(resources.GetObject("FlechaDerecha.Image")));
-            this.FlechaDerecha.Location = new System.Drawing.Point(6, 3);
-            this.FlechaDerecha.Name = "FlechaDerecha";
-            this.FlechaDerecha.Size = new System.Drawing.Size(51, 44);
-            this.FlechaDerecha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.FlechaDerecha.TabIndex = 6;
-            this.FlechaDerecha.TabStop = false;
-            this.FlechaDerecha.Visible = false;
-            this.FlechaDerecha.Click += new System.EventHandler(this.FlechaDerecha_Click_1);
-            // 
-            // IcoMinimizar
-            // 
-            this.IcoMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.IcoMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.IcoMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("IcoMinimizar.Image")));
-            this.IcoMinimizar.Location = new System.Drawing.Point(665, 4);
-            this.IcoMinimizar.Name = "IcoMinimizar";
-            this.IcoMinimizar.Size = new System.Drawing.Size(58, 38);
-            this.IcoMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.IcoMinimizar.TabIndex = 7;
-            this.IcoMinimizar.TabStop = false;
-            this.IcoMinimizar.Click += new System.EventHandler(this.IcoMinimizar_Click_1);
             // 
             // IcoRestaurar
             // 
@@ -267,6 +169,108 @@
             this.IcoCerrar.TabStop = false;
             this.IcoCerrar.Click += new System.EventHandler(this.IcoCerrar_Click_1);
             // 
+            // IcoMinimizar
+            // 
+            this.IcoMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.IcoMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.IcoMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("IcoMinimizar.Image")));
+            this.IcoMinimizar.Location = new System.Drawing.Point(665, 4);
+            this.IcoMinimizar.Name = "IcoMinimizar";
+            this.IcoMinimizar.Size = new System.Drawing.Size(58, 38);
+            this.IcoMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.IcoMinimizar.TabIndex = 7;
+            this.IcoMinimizar.TabStop = false;
+            this.IcoMinimizar.Click += new System.EventHandler(this.IcoMinimizar_Click_1);
+            // 
+            // FlechaDerecha
+            // 
+            this.FlechaDerecha.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.FlechaDerecha.Image = ((System.Drawing.Image)(resources.GetObject("FlechaDerecha.Image")));
+            this.FlechaDerecha.Location = new System.Drawing.Point(6, 3);
+            this.FlechaDerecha.Name = "FlechaDerecha";
+            this.FlechaDerecha.Size = new System.Drawing.Size(51, 44);
+            this.FlechaDerecha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.FlechaDerecha.TabIndex = 6;
+            this.FlechaDerecha.TabStop = false;
+            this.FlechaDerecha.Visible = false;
+            this.FlechaDerecha.Click += new System.EventHandler(this.FlechaDerecha_Click_1);
+            // 
+            // FlechaIzq
+            // 
+            this.FlechaIzq.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.FlechaIzq.Image = ((System.Drawing.Image)(resources.GetObject("FlechaIzq.Image")));
+            this.FlechaIzq.Location = new System.Drawing.Point(6, 4);
+            this.FlechaIzq.Name = "FlechaIzq";
+            this.FlechaIzq.Size = new System.Drawing.Size(51, 41);
+            this.FlechaIzq.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.FlechaIzq.TabIndex = 5;
+            this.FlechaIzq.TabStop = false;
+            this.FlechaIzq.Click += new System.EventHandler(this.FlechaIzq_Click);
+            // 
+            // button3
+            // 
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(6, 46);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(343, 40);
+            this.button3.TabIndex = 6;
+            this.button3.Text = "Consulta";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button2
+            // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(6, 0);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(343, 40);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "Ingreso ";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(19, 96);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(362, 40);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Gestion Trasportadores";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(3, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(328, 78);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // GestionarTrasportadores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -282,13 +286,13 @@
             this.MenuVertical.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.FlechaIzq)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FlechaDerecha)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.IcoMinimizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.IcoRestaurar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.IcoMaximizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.IcoCerrar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.IcoMinimizar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FlechaDerecha)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FlechaIzq)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
