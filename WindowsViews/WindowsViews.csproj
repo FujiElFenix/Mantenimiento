@@ -133,6 +133,24 @@
     <Compile Include="Views\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\MantencionMaquinarias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MantencionMaquinarias.Designer.cs">
+      <DependentUpon>MantencionMaquinarias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MantencionTrasportadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MantencionTrasportadores.Designer.cs">
+      <DependentUpon>MantencionTrasportadores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MantencionVehiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MantencionVehiculos.Designer.cs">
+      <DependentUpon>MantencionVehiculos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\MenuMaquinaria.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -158,6 +176,24 @@
     </Compile>
     <Compile Include="Views\MenuVehiculos.Designer.cs">
       <DependentUpon>MenuVehiculos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProximasMantencionesMaquinaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ProximasMantencionesMaquinaria.Designer.cs">
+      <DependentUpon>ProximasMantencionesMaquinaria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProximasMantencionesTrasportadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ProximasMantencionesTrasportadores.Designer.cs">
+      <DependentUpon>ProximasMantencionesTrasportadores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProximasMantencionesVehiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ProximasMantencionesVehiculos.Designer.cs">
+      <DependentUpon>ProximasMantencionesVehiculos.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Views\GestionarMaquinaria.resx">
       <DependentUpon>GestionarMaquinaria.cs</DependentUpon>
@@ -201,6 +237,15 @@
     <EmbeddedResource Include="Views\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\MantencionMaquinarias.resx">
+      <DependentUpon>MantencionMaquinarias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MantencionTrasportadores.resx">
+      <DependentUpon>MantencionTrasportadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MantencionVehiculos.resx">
+      <DependentUpon>MantencionVehiculos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\MenuMaquinaria.resx">
       <DependentUpon>MenuMaquinaria.cs</DependentUpon>
     </EmbeddedResource>
@@ -222,6 +267,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\MenuVehiculos.resx">
       <DependentUpon>MenuVehiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ProximasMantencionesMaquinaria.resx">
+      <DependentUpon>ProximasMantencionesMaquinaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ProximasMantencionesTrasportadores.resx">
+      <DependentUpon>ProximasMantencionesTrasportadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ProximasMantencionesVehiculos.resx">
+      <DependentUpon>ProximasMantencionesVehiculos.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

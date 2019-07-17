@@ -74,5 +74,18 @@ namespace WindowsViews.Views
             HistorialMantencionesVehiculos HMVehiculos = new HistorialMantencionesVehiculos();
             HMVehiculos.Show();
         }
+
+        private void ImgMantencion_Click(object sender, EventArgs e)
+        {
+            MantencionVehiculos MVehiculos = new MantencionVehiculos();
+            MVehiculos.Show();
+        }
+
+        private void ImgProximasMantenciones_Click(object sender, EventArgs e)
+        {
+            ProximasMantencionesVehiculos PMVehiculos = new ProximasMantencionesVehiculos();
+            PMVehiculos.Show();
+
+        }
     }
 }

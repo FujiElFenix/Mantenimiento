@@ -36,3 +36,9 @@ C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.
 C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.Views.HistorialMantencionTrasportadores.resources
 C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.Views.IngresoTrasportadores.resources
 C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.Views.ListadoTrasportadores.resources
+C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.Views.MantencionMaquinarias.resources
+C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.Views.ProximasMantencionesMaquinaria.resources
+C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.Views.MantencionVehiculos.resources
+C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.Views.ProximasMantencionesVehiculos.resources
+C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.Views.MantencionTrasportadores.resources
+C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.Views.ProximasMantencionesTrasportadores.resources

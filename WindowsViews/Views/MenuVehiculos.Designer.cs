@@ -176,6 +176,7 @@
             resources.ApplyResources(this.ImgProximasMantenciones, "ImgProximasMantenciones");
             this.ImgProximasMantenciones.Name = "ImgProximasMantenciones";
             this.ImgProximasMantenciones.TabStop = false;
+            this.ImgProximasMantenciones.Click += new System.EventHandler(this.ImgProximasMantenciones_Click);
             this.ImgProximasMantenciones.MouseLeave += new System.EventHandler(this.ImgProximasMantenciones_MouseLeave);
             this.ImgProximasMantenciones.MouseHover += new System.EventHandler(this.ImgProximasMantenciones_MouseHover);
             // 
@@ -197,6 +198,7 @@
             resources.ApplyResources(this.ImgMantencion, "ImgMantencion");
             this.ImgMantencion.Name = "ImgMantencion";
             this.ImgMantencion.TabStop = false;
+            this.ImgMantencion.Click += new System.EventHandler(this.ImgMantencion_Click);
             this.ImgMantencion.MouseLeave += new System.EventHandler(this.ImgMantencion_MouseLeave);
             this.ImgMantencion.MouseHover += new System.EventHandler(this.ImgMantencion_MouseHover);
             // 

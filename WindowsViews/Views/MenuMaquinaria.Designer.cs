@@ -231,6 +231,7 @@
             this.ImgProximasMantenciones.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.ImgProximasMantenciones.TabIndex = 0;
             this.ImgProximasMantenciones.TabStop = false;
+            this.ImgProximasMantenciones.Click += new System.EventHandler(this.ImgProximasMantenciones_Click);
             this.ImgProximasMantenciones.MouseLeave += new System.EventHandler(this.ImgProximasMantenciones_MouseLeave);
             this.ImgProximasMantenciones.MouseHover += new System.EventHandler(this.ImgProximasMantenciones_MouseHover);
             // 
@@ -260,6 +261,7 @@
             this.ImgMantencion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.ImgMantencion.TabIndex = 0;
             this.ImgMantencion.TabStop = false;
+            this.ImgMantencion.Click += new System.EventHandler(this.ImgMantencion_Click);
             this.ImgMantencion.MouseLeave += new System.EventHandler(this.ImgMantencion_MouseLeave);
             this.ImgMantencion.MouseHover += new System.EventHandler(this.ImgMantencion_MouseHover);
             // 

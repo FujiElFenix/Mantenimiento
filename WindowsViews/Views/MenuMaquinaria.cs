@@ -78,5 +78,17 @@ namespace WindowsViews.Views
             HistorialMantencionMaquinaria HMMaquinaria = new HistorialMantencionMaquinaria();
             HMMaquinaria.Show();
         }
+
+        private void ImgMantencion_Click(object sender, EventArgs e)
+        {
+            MantencionMaquinarias mantencionM = new MantencionMaquinarias();
+            mantencionM.Show();
+        }
+
+        private void ImgProximasMantenciones_Click(object sender, EventArgs e)
+        {
+            ProximasMantencionesMaquinaria PMMaquinaria = new ProximasMantencionesMaquinaria();
+            PMMaquinaria.Show();
+        }
     }
 }

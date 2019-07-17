@@ -67,5 +67,17 @@ namespace WindowsViews.Views
             IngresoOT ingreso = new IngresoOT();
             ingreso.Show();
         }
+
+        private void ImgMantencion_Click(object sender, EventArgs e)
+        {
+            MantencionTrasportadores MTrasportadores = new MantencionTrasportadores();
+            MTrasportadores.Show();
+        }
+
+        private void ImgProximasMantenciones_Click(object sender, EventArgs e)
+        {
+            ProximasMantencionesTrasportadores PMTrasportadores = new ProximasMantencionesTrasportadores();
+            PMTrasportadores.Show();
+        }
     }
 }

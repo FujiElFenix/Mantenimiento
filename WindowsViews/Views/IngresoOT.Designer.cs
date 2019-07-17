@@ -29,7 +29,15 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.BtnSalir = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.TxtRepuestosUtilizados = new System.Windows.Forms.TextBox();
+            this.TxtProcedimientoRealizado = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.TxtTrabajoHrs = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
             this.DtFin = new System.Windows.Forms.DateTimePicker();
             this.label16 = new System.Windows.Forms.Label();
             this.DtInicio = new System.Windows.Forms.DateTimePicker();
@@ -62,19 +70,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.TxtTrabajoHrs = new System.Windows.Forms.TextBox();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.TxtProcedimientoRealizado = new System.Windows.Forms.TextBox();
-            this.TxtRepuestosUtilizados = new System.Windows.Forms.TextBox();
-            this.BtnSalir = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -91,6 +91,69 @@
             this.panel1.Size = new System.Drawing.Size(780, 551);
             this.panel1.TabIndex = 0;
             // 
+            // BtnSalir
+            // 
+            this.BtnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.BtnSalir.AutoSize = true;
+            this.BtnSalir.BackColor = System.Drawing.Color.White;
+            this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.BtnSalir.ForeColor = System.Drawing.Color.Maroon;
+            this.BtnSalir.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.BtnSalir.Location = new System.Drawing.Point(754, -3);
+            this.BtnSalir.Name = "BtnSalir";
+            this.BtnSalir.Size = new System.Drawing.Size(26, 25);
+            this.BtnSalir.TabIndex = 33;
+            this.BtnSalir.Text = "X";
+            this.BtnSalir.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.TxtRepuestosUtilizados);
+            this.panel5.Controls.Add(this.TxtProcedimientoRealizado);
+            this.panel5.Controls.Add(this.label19);
+            this.panel5.Controls.Add(this.label18);
+            this.panel5.Location = new System.Drawing.Point(24, 361);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(718, 158);
+            this.panel5.TabIndex = 14;
+            // 
+            // TxtRepuestosUtilizados
+            // 
+            this.TxtRepuestosUtilizados.Location = new System.Drawing.Point(198, 75);
+            this.TxtRepuestosUtilizados.Multiline = true;
+            this.TxtRepuestosUtilizados.Name = "TxtRepuestosUtilizados";
+            this.TxtRepuestosUtilizados.Size = new System.Drawing.Size(500, 59);
+            this.TxtRepuestosUtilizados.TabIndex = 3;
+            // 
+            // TxtProcedimientoRealizado
+            // 
+            this.TxtProcedimientoRealizado.Location = new System.Drawing.Point(198, 10);
+            this.TxtProcedimientoRealizado.Multiline = true;
+            this.TxtProcedimientoRealizado.Name = "TxtProcedimientoRealizado";
+            this.TxtProcedimientoRealizado.Size = new System.Drawing.Size(500, 59);
+            this.TxtProcedimientoRealizado.TabIndex = 2;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label19.Location = new System.Drawing.Point(19, 75);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(149, 17);
+            this.label19.TabIndex = 1;
+            this.label19.Text = "Repuestos Utilizados: ";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label18.Location = new System.Drawing.Point(19, 10);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(173, 17);
+            this.label18.TabIndex = 0;
+            this.label18.Text = "Procedimiento Realizado: ";
+            // 
             // panel4
             // 
             this.panel4.Controls.Add(this.TxtTrabajoHrs);
@@ -106,6 +169,23 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(364, 194);
             this.panel4.TabIndex = 13;
+            // 
+            // TxtTrabajoHrs
+            // 
+            this.TxtTrabajoHrs.Location = new System.Drawing.Point(278, 155);
+            this.TxtTrabajoHrs.Name = "TxtTrabajoHrs";
+            this.TxtTrabajoHrs.Size = new System.Drawing.Size(83, 20);
+            this.TxtTrabajoHrs.TabIndex = 32;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.label17.Location = new System.Drawing.Point(14, 155);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(257, 16);
+            this.label17.TabIndex = 31;
+            this.label17.Text = "Tiempo De Realizacion Del Trabajo(Hrs):";
             // 
             // DtFin
             // 
@@ -414,86 +494,6 @@
             this.label5.TabIndex = 9;
             this.label5.Text = "Ingresar Orden De Trabajo";
             // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
-            this.label17.Location = new System.Drawing.Point(14, 155);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(257, 16);
-            this.label17.TabIndex = 31;
-            this.label17.Text = "Tiempo De Realizacion Del Trabajo(Hrs):";
-            // 
-            // TxtTrabajoHrs
-            // 
-            this.TxtTrabajoHrs.Location = new System.Drawing.Point(278, 155);
-            this.TxtTrabajoHrs.Name = "TxtTrabajoHrs";
-            this.TxtTrabajoHrs.Size = new System.Drawing.Size(83, 20);
-            this.TxtTrabajoHrs.TabIndex = 32;
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.TxtRepuestosUtilizados);
-            this.panel5.Controls.Add(this.TxtProcedimientoRealizado);
-            this.panel5.Controls.Add(this.label19);
-            this.panel5.Controls.Add(this.label18);
-            this.panel5.Location = new System.Drawing.Point(24, 361);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(718, 158);
-            this.panel5.TabIndex = 14;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label18.Location = new System.Drawing.Point(19, 10);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(173, 17);
-            this.label18.TabIndex = 0;
-            this.label18.Text = "Procedimiento Realizado: ";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.label19.Location = new System.Drawing.Point(19, 75);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(149, 17);
-            this.label19.TabIndex = 1;
-            this.label19.Text = "Repuestos Utilizados: ";
-            // 
-            // TxtProcedimientoRealizado
-            // 
-            this.TxtProcedimientoRealizado.Location = new System.Drawing.Point(198, 10);
-            this.TxtProcedimientoRealizado.Multiline = true;
-            this.TxtProcedimientoRealizado.Name = "TxtProcedimientoRealizado";
-            this.TxtProcedimientoRealizado.Size = new System.Drawing.Size(500, 59);
-            this.TxtProcedimientoRealizado.TabIndex = 2;
-            // 
-            // TxtRepuestosUtilizados
-            // 
-            this.TxtRepuestosUtilizados.Location = new System.Drawing.Point(198, 75);
-            this.TxtRepuestosUtilizados.Multiline = true;
-            this.TxtRepuestosUtilizados.Name = "TxtRepuestosUtilizados";
-            this.TxtRepuestosUtilizados.Size = new System.Drawing.Size(500, 59);
-            this.TxtRepuestosUtilizados.TabIndex = 3;
-            // 
-            // BtnSalir
-            // 
-            this.BtnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnSalir.AutoSize = true;
-            this.BtnSalir.BackColor = System.Drawing.Color.White;
-            this.BtnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.BtnSalir.ForeColor = System.Drawing.Color.Maroon;
-            this.BtnSalir.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.BtnSalir.Location = new System.Drawing.Point(754, -3);
-            this.BtnSalir.Name = "BtnSalir";
-            this.BtnSalir.Size = new System.Drawing.Size(26, 25);
-            this.BtnSalir.TabIndex = 33;
-            this.BtnSalir.Text = "X";
-            this.BtnSalir.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
-            // 
             // IngresoOT
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -507,14 +507,14 @@
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.IngresoOT_MouseDown);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
             this.ResumeLayout(false);
 
         }
