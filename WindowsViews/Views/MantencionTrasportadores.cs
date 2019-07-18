@@ -9,8 +9,11 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Drawing;
-using System.IO;
 
+using System.IO;
+using System.Net;
+using System.Security.Cryptography.X509Certificates;
+using System.Net.Security;
 
 namespace WindowsViews.Views
 {
@@ -43,7 +46,7 @@ namespace WindowsViews.Views
 
         private void BtnAgregarMantencion_Click(object sender, EventArgs e)
         {
-
+            //CALCULA DIA RESTANTE
             try
             {
                 DateTime fecha = new DateTime(2019, 07, 17);
@@ -64,13 +67,13 @@ namespace WindowsViews.Views
             }
 
             MostrarNotificacion();
-
+            //Codigo de Correo
             System.Net.Mail.MailMessage mmsg = new System.Net.Mail.MailMessage();
             mmsg.To.Add(TxtCorreo.Text);
             mmsg.Subject = "Proxima Mantencion!";
             mmsg.SubjectEncoding = System.Text.Encoding.UTF8;
 
-            mmsg.Body = "La siguiente mantencion es en " + TxtDiasFaltantes.ToString();
+            mmsg.Body = "La  mantencion realizada al transportador "+ txtMaquina.Text +" Se realizara en " + TxtDiasFaltantes.Text + " Dias, La fecha para la mantencion es la siguiente: "+ DatePickerFechaProximaMantencion.Value;
             mmsg.BodyEncoding = System.Text.Encoding.UTF8;
             mmsg.IsBodyHtml = true;
             mmsg.From = new System.Net.Mail.MailAddress("mantencion@mindugar.cl");
@@ -80,10 +83,23 @@ namespace WindowsViews.Views
             cliente.Credentials = new System.Net.NetworkCredential("mantencion@mindugar.cl", "manmin281");
             cliente.Port = 587;
             cliente.EnableSsl = true;
-            cliente.Host = "correo.mindugar.cl";//dominio
+            cliente.Host = "192.168.1.150";//dominio
 
+
+            ServicePointManager.ServerCertificateValidationCallback =
+
+               delegate (object s
+
+                   , X509Certificate certificate
+
+                   , X509Chain chain
+
+                   , SslPolicyErrors sslPolicyErrors)
+
+               { return true; };
             try
             {
+
                 cliente.Send(mmsg);
             }
             catch (Exception ex )
@@ -92,6 +108,7 @@ namespace WindowsViews.Views
             }
             
         }
+
 
         public void MostrarNotificacion()
         {
