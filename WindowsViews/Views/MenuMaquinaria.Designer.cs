@@ -291,6 +291,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MenuMaquinaria";
             this.Text = "MenuMaquinaria";
+            this.Load += new System.EventHandler(this.MenuMaquinaria_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel8.ResumeLayout(false);

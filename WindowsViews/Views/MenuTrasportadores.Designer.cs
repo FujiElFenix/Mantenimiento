@@ -291,6 +291,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MenuTrasportadores";
             this.Text = "MenuTrasportadores";
+            this.Load += new System.EventHandler(this.MenuTrasportadores_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel8.ResumeLayout(false);

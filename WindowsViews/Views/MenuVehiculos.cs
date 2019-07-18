@@ -87,5 +87,10 @@ namespace WindowsViews.Views
             PMVehiculos.Show();
 
         }
+
+        private void MenuVehiculos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

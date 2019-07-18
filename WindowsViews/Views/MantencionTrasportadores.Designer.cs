@@ -67,6 +67,8 @@
             this.DgvListadoMaquinaria = new System.Windows.Forms.DataGridView();
             this.label5 = new System.Windows.Forms.Label();
             this.Notificacion = new System.Windows.Forms.NotifyIcon(this.components);
+            this.TxtCorreo = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -107,6 +109,8 @@
             // 
             // panel4
             // 
+            this.panel4.Controls.Add(this.TxtCorreo);
+            this.panel4.Controls.Add(this.label14);
             this.panel4.Controls.Add(this.RbExterna);
             this.panel4.Controls.Add(this.BtnAgregarMantencion);
             this.panel4.Controls.Add(this.RbInterna);
@@ -128,9 +132,9 @@
             this.panel4.Controls.Add(this.label6);
             this.panel4.Controls.Add(this.label4);
             this.panel4.Controls.Add(this.label3);
-            this.panel4.Location = new System.Drawing.Point(14, 344);
+            this.panel4.Location = new System.Drawing.Point(14, 331);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(741, 184);
+            this.panel4.Size = new System.Drawing.Size(741, 217);
             this.panel4.TabIndex = 10;
             // 
             // RbExterna
@@ -149,7 +153,7 @@
             this.BtnAgregarMantencion.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnAgregarMantencion.Image = ((System.Drawing.Image)(resources.GetObject("BtnAgregarMantencion.Image")));
             this.BtnAgregarMantencion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnAgregarMantencion.Location = new System.Drawing.Point(3, 133);
+            this.BtnAgregarMantencion.Location = new System.Drawing.Point(3, 166);
             this.BtnAgregarMantencion.Name = "BtnAgregarMantencion";
             this.BtnAgregarMantencion.Size = new System.Drawing.Size(94, 48);
             this.BtnAgregarMantencion.TabIndex = 7;
@@ -325,7 +329,7 @@
             this.panel3.Controls.Add(this.BtnModificarDetalleMaquina);
             this.panel3.Controls.Add(this.dataGridView1);
             this.panel3.Controls.Add(this.label2);
-            this.panel3.Location = new System.Drawing.Point(393, 51);
+            this.panel3.Location = new System.Drawing.Point(394, 38);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(361, 287);
             this.panel3.TabIndex = 7;
@@ -382,7 +386,7 @@
             this.panel2.Controls.Add(this.BtnNuevaMaquina);
             this.panel2.Controls.Add(this.BtnBuscar);
             this.panel2.Controls.Add(this.DgvListadoMaquinaria);
-            this.panel2.Location = new System.Drawing.Point(14, 51);
+            this.panel2.Location = new System.Drawing.Point(14, 38);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(349, 287);
             this.panel2.TabIndex = 6;
@@ -450,7 +454,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.White;
             this.label5.Font = new System.Drawing.Font("Rockwell", 17F);
-            this.label5.Location = new System.Drawing.Point(231, 11);
+            this.label5.Location = new System.Drawing.Point(230, 9);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(304, 26);
             this.label5.TabIndex = 5;
@@ -461,6 +465,22 @@
             this.Notificacion.BalloonTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             this.Notificacion.Visible = true;
             this.Notificacion.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseDoubleClick);
+            // 
+            // TxtCorreo
+            // 
+            this.TxtCorreo.Location = new System.Drawing.Point(308, 163);
+            this.TxtCorreo.Name = "TxtCorreo";
+            this.TxtCorreo.Size = new System.Drawing.Size(149, 20);
+            this.TxtCorreo.TabIndex = 34;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(218, 166);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(82, 13);
+            this.label14.TabIndex = 33;
+            this.label14.Text = "Ingresar Correo ";
             // 
             // MantencionTrasportadores
             // 
@@ -526,5 +546,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label BtnSalir;
         private System.Windows.Forms.NotifyIcon Notificacion;
+        private System.Windows.Forms.TextBox TxtCorreo;
+        private System.Windows.Forms.Label label14;
     }
 }

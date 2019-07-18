@@ -40,7 +40,7 @@ namespace WindowsViews.Views
         {
             TxtDiasFaltantes.Enabled = false;
         }
-        
+
         private void BtnAgregarMantencion_Click(object sender, EventArgs e)
         {
 
@@ -64,6 +64,32 @@ namespace WindowsViews.Views
             }
 
             MostrarNotificacion();
+
+            System.Net.Mail.MailMessage mmsg = new System.Net.Mail.MailMessage();
+            mmsg.To.Add(TxtCorreo.Text);
+            mmsg.Subject = "Proxima Mantencion!";
+            mmsg.SubjectEncoding = System.Text.Encoding.UTF8;
+
+            mmsg.Body = "La siguiente mantencion es en " + TxtDiasFaltantes.ToString();
+            mmsg.BodyEncoding = System.Text.Encoding.UTF8;
+            mmsg.IsBodyHtml = true;
+            mmsg.From = new System.Net.Mail.MailAddress("mantencion@mindugar.cl");
+
+            System.Net.Mail.SmtpClient cliente = new System.Net.Mail.SmtpClient();
+
+            cliente.Credentials = new System.Net.NetworkCredential("mantencion@mindugar.cl", "manmin281");
+            cliente.Port = 587;
+            cliente.EnableSsl = true;
+            cliente.Host = "correo.mindugar.cl";//dominio
+
+            try
+            {
+                cliente.Send(mmsg);
+            }
+            catch (Exception ex )
+            {
+                MessageBox.Show("Error al enviar correo " + ex.Message);
+            }
             
         }
 
@@ -74,7 +100,7 @@ namespace WindowsViews.Views
             Notificacion.Text = "EJEMPLO Text";
             Notificacion.Visible = true;
             Notificacion.BalloonTipTitle = "Proxima Mantencion!";
-            Notificacion.BalloonTipText = ("La siguiente mantencion es en " + TxtDiasFaltantes);
+            Notificacion.BalloonTipText = ("La siguiente mantencion es en " + TxtDiasFaltantes.ToString());
             Notificacion.ShowBalloonTip(100);
         }
 

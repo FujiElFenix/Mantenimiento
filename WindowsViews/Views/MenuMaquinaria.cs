@@ -90,5 +90,10 @@ namespace WindowsViews.Views
             ProximasMantencionesMaquinaria PMMaquinaria = new ProximasMantencionesMaquinaria();
             PMMaquinaria.Show();
         }
+
+        private void MenuMaquinaria_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

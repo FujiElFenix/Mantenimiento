@@ -85,5 +85,10 @@ namespace WindowsViews.Views
             HistorialMantencionesVehiculos HMVehiculos = new HistorialMantencionesVehiculos();
             HMVehiculos.Show();
         }
+
+        private void MenuTrasportadores_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
