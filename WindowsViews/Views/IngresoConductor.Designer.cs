@@ -220,6 +220,7 @@
             this.BtnBuscarConductor.TabIndex = 19;
             this.BtnBuscarConductor.Text = "Buscar Conductor";
             this.BtnBuscarConductor.UseVisualStyleBackColor = true;
+            this.BtnBuscarConductor.Click += new System.EventHandler(this.BtnBuscarConductor_Click);
             // 
             // BtnDarDeBaja
             // 
@@ -238,6 +239,7 @@
             this.BtnModificar.TabIndex = 17;
             this.BtnModificar.Text = "Modificar";
             this.BtnModificar.UseVisualStyleBackColor = true;
+            this.BtnModificar.Click += new System.EventHandler(this.BtnModificar_Click);
             // 
             // BtnRegistrar
             // 
