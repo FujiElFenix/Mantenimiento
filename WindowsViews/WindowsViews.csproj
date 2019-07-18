@@ -195,6 +195,12 @@
     <Compile Include="Views\ProximasMantencionesVehiculos.Designer.cs">
       <DependentUpon>ProximasMantencionesVehiculos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\ServiciosVehiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ServiciosVehiculo.Designer.cs">
+      <DependentUpon>ServiciosVehiculo.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Views\GestionarMaquinaria.resx">
       <DependentUpon>GestionarMaquinaria.cs</DependentUpon>
     </EmbeddedResource>
@@ -276,6 +282,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\ProximasMantencionesVehiculos.resx">
       <DependentUpon>ProximasMantencionesVehiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ServiciosVehiculo.resx">
+      <DependentUpon>ServiciosVehiculo.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
