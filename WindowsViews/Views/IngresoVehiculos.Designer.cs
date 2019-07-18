@@ -78,6 +78,7 @@
             this.metrajeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.anioDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.conductoridDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -123,6 +124,7 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.TxtNombreCliente);
             this.panel2.Controls.Add(this.TxtRut);
             this.panel2.Controls.Add(this.TxtAnio);
@@ -401,10 +403,10 @@
             // 
             // TxtPatenteBuscar
             // 
-            this.TxtPatenteBuscar.Location = new System.Drawing.Point(127, 318);
+            this.TxtPatenteBuscar.Location = new System.Drawing.Point(195, 318);
             this.TxtPatenteBuscar.Multiline = true;
             this.TxtPatenteBuscar.Name = "TxtPatenteBuscar";
-            this.TxtPatenteBuscar.Size = new System.Drawing.Size(514, 20);
+            this.TxtPatenteBuscar.Size = new System.Drawing.Size(446, 20);
             this.TxtPatenteBuscar.TabIndex = 33;
             // 
             // label14
@@ -413,9 +415,9 @@
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
             this.label14.Location = new System.Drawing.Point(48, 318);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(71, 20);
+            this.label14.Size = new System.Drawing.Size(141, 20);
             this.label14.TabIndex = 33;
-            this.label14.Text = "Patente:";
+            this.label14.Text = "Patente a buscar:";
             // 
             // dBMantencionDataSet
             // 
@@ -524,6 +526,16 @@
             this.conductoridDataGridViewTextBoxColumn.HeaderText = "Conductor_id";
             this.conductoridDataGridViewTextBoxColumn.Name = "conductoridDataGridViewTextBoxColumn";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(646, 44);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(61, 24);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "Buscar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // IngresoVehiculos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -602,5 +614,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn metrajeDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn anioDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn conductoridDataGridViewTextBoxColumn;
+        private System.Windows.Forms.Button button1;
     }
 }

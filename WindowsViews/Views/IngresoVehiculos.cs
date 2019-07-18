@@ -40,7 +40,7 @@ namespace WindowsViews.Views
         {
             try
             {
-                string query = "INSERT INTO Vehiculo (Patente,Marca,Color,Modelo,Motor,Chasis,Metraje,anio) VALUES (@Patente,@Marca,@Color,@Modelo,@Motor,@Chasis,@Metraje,@anio)";
+                string query = "INSERT INTO Vehiculo (Patente,Marca,Color,Modelo,Motor,Chasis,Metraje,anio,Conductor_id) VALUES (@Patente,@Marca,@Color,@Modelo,@Motor,@Chasis,@Metraje,@anio,@Conductor_id)";
                 cone.Open();
                 SqlCommand comando = new SqlCommand(query, cone);
                 comando.Parameters.AddWithValue("@Patente", TxtPatente.Text);
@@ -51,8 +51,10 @@ namespace WindowsViews.Views
                 comando.Parameters.AddWithValue("@Chasis", TxtChasis.Text);
                 comando.Parameters.AddWithValue("@Metraje", TxtMetraje.Text);
                 comando.Parameters.AddWithValue("@anio", TxtAnio.Text);
+                comando.Parameters.AddWithValue("@Conductor_id", TxtRut.Text);
                 comando.ExecuteNonQuery();
                 MessageBox.Show("Vehiculo Insertado");
+
             }
             catch (Exception ex)
             {
@@ -84,7 +86,7 @@ namespace WindowsViews.Views
         {
             try
             {
-                string query = "UPDATE Vehiculo SET Marca=@Marca,Color=@Color,Modelo=@Modelo,Motor=@Motor,Chasis=@Chasis,Metraje=@Metraje,anio=@anio WHERE Patente = @Patente";
+                string query = "UPDATE Vehiculo SET Marca=@Marca,Color=@Color,Modelo=@Modelo,Motor=@Motor,Chasis=@Chasis,Metraje=@Metraje,anio=@anio,Conductor_id=@Conductor_id WHERE Patente = @Patente";
                 cone.Open();
                 SqlCommand comando = new SqlCommand(query, cone);
                 comando.Parameters.AddWithValue("@Patente", TxtPatente.Text);
@@ -95,6 +97,7 @@ namespace WindowsViews.Views
                 comando.Parameters.AddWithValue("@Chasis", TxtChasis.Text);
                 comando.Parameters.AddWithValue("@Metraje", TxtMetraje.Text);
                 comando.Parameters.AddWithValue("@anio", TxtAnio.Text);
+                comando.Parameters.AddWithValue("@Conductor_id", TxtRut.Text);
                 comando.ExecuteNonQuery();
                 cone.Close();
                 MessageBox.Show("Vehiculo Modificado");
@@ -122,6 +125,19 @@ namespace WindowsViews.Views
                 TxtChasis.Text = registro["Chasis"].ToString();
                 TxtMetraje.Text = registro["Metraje"].ToString();
                 TxtAnio.Text = registro["anio"].ToString();
+            }
+            cone.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SqlCommand comando = new SqlCommand("Select * from Conductor where Rut=@Rut ",cone);
+            comando.Parameters.AddWithValue("@Rut", TxtRut.Text);
+            cone.Open();
+            SqlDataReader registro = comando.ExecuteReader();
+            if (registro.Read())
+            {
+                TxtNombreCliente.Text = registro["Nombre"].ToString();
             }
             cone.Close();
         }
