@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBMantencionModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Conductor">
+    <Key>
+      <PropertyRef Name="Rut" />
+    </Key>
+    <Property Name="Rut" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" />
+    <Property Name="Direccion" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefono" Type="int" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Servicios">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="int" Nullable="false" />
+    <Property Name="Servicios" Type="nvarchar" MaxLength="50" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="50" />
+    <Property Name="Precio" Type="int" />
+    <Property Name="Observacion" Type="nvarchar" MaxLength="50" />
+    <Property Name="FechaRegistro" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Vehiculo">
+    <Key>
+      <PropertyRef Name="Patente" />
+    </Key>
+    <Property Name="Patente" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Marca" Type="nvarchar" MaxLength="50" />
+    <Property Name="Color" Type="nvarchar" MaxLength="50" />
+    <Property Name="Modelo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Motor" Type="nvarchar" MaxLength="50" />
+    <Property Name="Chasis" Type="nvarchar" MaxLength="50" />
+    <Property Name="Metraje" Type="int" />
+    <Property Name="Año" Type="int" />
+    <Property Name="Conductor_id" Type="int" />
+  </EntityType>
+  <EntityContainer Name="DBMantencionModelStoreContainer">
+    <EntitySet Name="Conductor" EntityType="Self.Conductor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Servicios" EntityType="Self.Servicios" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vehiculo" EntityType="Self.Vehiculo" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

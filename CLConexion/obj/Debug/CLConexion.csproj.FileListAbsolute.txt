@@ -1,0 +1,7 @@
+C:\Users\ffranco\Source\Repos\Mantenimiento\CLConexion\bin\Debug\CLConexion.dll.config
+C:\Users\ffranco\Source\Repos\Mantenimiento\CLConexion\bin\Debug\CLConexion.dll
+C:\Users\ffranco\Source\Repos\Mantenimiento\CLConexion\bin\Debug\CLConexion.pdb
+C:\Users\ffranco\Source\Repos\Mantenimiento\CLConexion\bin\Debug\EntityFramework.dll
+C:\Users\ffranco\Source\Repos\Mantenimiento\CLConexion\obj\Debug\CLConexion.csprojResolveAssemblyReference.cache
+C:\Users\ffranco\Source\Repos\Mantenimiento\CLConexion\obj\Debug\CLConexion.dll
+C:\Users\ffranco\Source\Repos\Mantenimiento\CLConexion\obj\Debug\CLConexion.pdb

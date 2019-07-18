@@ -49,6 +49,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DBMantencionDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBMantencionDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBMantencionDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBMantencionDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBMantencionDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBMantencionDataSet2.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Views\GestionarMaquinaria.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +99,12 @@
     </Compile>
     <Compile Include="Views\HistorialMantencionTrasportadores.Designer.cs">
       <DependentUpon>HistorialMantencionTrasportadores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\IngresoConductor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\IngresoConductor.Designer.cs">
+      <DependentUpon>IngresoConductor.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\IngresoMaquinaria.cs">
       <SubType>Form</SubType>
@@ -219,6 +240,9 @@
     <EmbeddedResource Include="Views\HistorialMantencionTrasportadores.resx">
       <DependentUpon>HistorialMantencionTrasportadores.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\IngresoConductor.resx">
+      <DependentUpon>IngresoConductor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\IngresoMaquinaria.resx">
       <DependentUpon>IngresoMaquinaria.cs</DependentUpon>
     </EmbeddedResource>
@@ -286,6 +310,39 @@
     <EmbeddedResource Include="Views\ServiciosVehiculo.resx">
       <DependentUpon>ServiciosVehiculo.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="DBMantencionDataSet.xsc">
+      <DependentUpon>DBMantencionDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DBMantencionDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBMantencionDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBMantencionDataSet.xss">
+      <DependentUpon>DBMantencionDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DBMantencionDataSet1.xsc">
+      <DependentUpon>DBMantencionDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DBMantencionDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBMantencionDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBMantencionDataSet1.xss">
+      <DependentUpon>DBMantencionDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DBMantencionDataSet2.xsc">
+      <DependentUpon>DBMantencionDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DBMantencionDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBMantencionDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBMantencionDataSet2.xss">
+      <DependentUpon>DBMantencionDataSet2.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -313,6 +370,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resource\LogoMindugar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CLConexion\CLConexion.csproj">
+      <Project>{c78393c7-d57f-4929-ab84-595dee2fef5b}</Project>
+      <Name>CLConexion</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

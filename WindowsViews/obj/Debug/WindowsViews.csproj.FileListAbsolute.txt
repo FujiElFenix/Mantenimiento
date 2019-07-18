@@ -42,3 +42,7 @@ C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.
 C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.Views.ProximasMantencionesVehiculos.resources
 C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.Views.MantencionTrasportadores.resources
 C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.Views.ProximasMantencionesTrasportadores.resources
+C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\bin\Debug\CLConexion.dll
+C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\bin\Debug\CLConexion.pdb
+C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.Views.ServiciosVehiculo.resources
+C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.Views.IngresoConductor_.resources

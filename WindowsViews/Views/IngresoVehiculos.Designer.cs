@@ -28,19 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.BtnSalir = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.TxtNombreCliente = new System.Windows.Forms.TextBox();
+            this.TxtRut = new System.Windows.Forms.TextBox();
+            this.TxtAnio = new System.Windows.Forms.TextBox();
+            this.TxtMetraje = new System.Windows.Forms.TextBox();
             this.TxtChasis = new System.Windows.Forms.TextBox();
             this.TxtMotor = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -62,17 +61,38 @@
             this.BtnBuscarVehiculo = new System.Windows.Forms.Button();
             this.TxtPatenteBuscar = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.DGVehiculos = new System.Windows.Forms.DataGridView();
+            this.dBMantencionDataSet = new WindowsViews.DBMantencionDataSet();
+            this.vehiculoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.vehiculoTableAdapter = new WindowsViews.DBMantencionDataSetTableAdapters.VehiculoTableAdapter();
+            this.vehiculoBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.GVVehiculos = new System.Windows.Forms.DataGridView();
+            this.dBMantencionDataSet1 = new WindowsViews.DBMantencionDataSet1();
+            this.vehiculoBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.vehiculoTableAdapter1 = new WindowsViews.DBMantencionDataSet1TableAdapters.VehiculoTableAdapter();
+            this.patenteDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.marcaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colorDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.modeloDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.motorDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.chasisDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.metrajeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.anioDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.conductoridDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DGVehiculos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dBMantencionDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vehiculoBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vehiculoBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GVVehiculos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dBMantencionDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vehiculoBindingSource2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(188)))), ((int)(((byte)(229)))));
-            this.panel1.Controls.Add(this.DGVehiculos);
+            this.panel1.Controls.Add(this.GVVehiculos);
             this.panel1.Controls.Add(this.label14);
             this.panel1.Controls.Add(this.TxtPatenteBuscar);
             this.panel1.Controls.Add(this.panel3);
@@ -103,16 +123,14 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.textBox7);
-            this.panel2.Controls.Add(this.textBox6);
-            this.panel2.Controls.Add(this.textBox5);
-            this.panel2.Controls.Add(this.textBox4);
-            this.panel2.Controls.Add(this.textBox3);
+            this.panel2.Controls.Add(this.TxtNombreCliente);
+            this.panel2.Controls.Add(this.TxtRut);
+            this.panel2.Controls.Add(this.TxtAnio);
+            this.panel2.Controls.Add(this.TxtMetraje);
             this.panel2.Controls.Add(this.TxtChasis);
             this.panel2.Controls.Add(this.TxtMotor);
             this.panel2.Controls.Add(this.label12);
             this.panel2.Controls.Add(this.label11);
-            this.panel2.Controls.Add(this.label10);
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.label8);
             this.panel2.Controls.Add(this.label7);
@@ -130,45 +148,37 @@
             this.panel2.Size = new System.Drawing.Size(722, 147);
             this.panel2.TabIndex = 15;
             // 
-            // textBox7
+            // TxtNombreCliente
             // 
-            this.textBox7.Location = new System.Drawing.Point(522, 84);
-            this.textBox7.Multiline = true;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(118, 20);
-            this.textBox7.TabIndex = 32;
+            this.TxtNombreCliente.Location = new System.Drawing.Point(522, 74);
+            this.TxtNombreCliente.Multiline = true;
+            this.TxtNombreCliente.Name = "TxtNombreCliente";
+            this.TxtNombreCliente.Size = new System.Drawing.Size(118, 20);
+            this.TxtNombreCliente.TabIndex = 32;
             // 
-            // textBox6
+            // TxtRut
             // 
-            this.textBox6.Location = new System.Drawing.Point(522, 56);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(118, 20);
-            this.textBox6.TabIndex = 31;
+            this.TxtRut.Location = new System.Drawing.Point(522, 46);
+            this.TxtRut.Multiline = true;
+            this.TxtRut.Name = "TxtRut";
+            this.TxtRut.Size = new System.Drawing.Size(118, 20);
+            this.TxtRut.TabIndex = 31;
             // 
-            // textBox5
+            // TxtAnio
             // 
-            this.textBox5.Location = new System.Drawing.Point(522, 30);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(118, 20);
-            this.textBox5.TabIndex = 30;
+            this.TxtAnio.Location = new System.Drawing.Point(307, 100);
+            this.TxtAnio.Multiline = true;
+            this.TxtAnio.Name = "TxtAnio";
+            this.TxtAnio.Size = new System.Drawing.Size(137, 20);
+            this.TxtAnio.TabIndex = 29;
             // 
-            // textBox4
+            // TxtMetraje
             // 
-            this.textBox4.Location = new System.Drawing.Point(307, 100);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(137, 20);
-            this.textBox4.TabIndex = 29;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(307, 74);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(137, 20);
-            this.textBox3.TabIndex = 28;
+            this.TxtMetraje.Location = new System.Drawing.Point(307, 74);
+            this.TxtMetraje.Multiline = true;
+            this.TxtMetraje.Name = "TxtMetraje";
+            this.TxtMetraje.Size = new System.Drawing.Size(137, 20);
+            this.TxtMetraje.TabIndex = 28;
             // 
             // TxtChasis
             // 
@@ -190,7 +200,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
-            this.label12.Location = new System.Drawing.Point(450, 80);
+            this.label12.Location = new System.Drawing.Point(450, 70);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(66, 20);
             this.label12.TabIndex = 25;
@@ -200,21 +210,11 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
-            this.label11.Location = new System.Drawing.Point(450, 55);
+            this.label11.Location = new System.Drawing.Point(450, 45);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(40, 20);
             this.label11.TabIndex = 24;
             this.label11.Text = "Rut:";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
-            this.label10.Location = new System.Drawing.Point(450, 30);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(66, 20);
-            this.label10.TabIndex = 23;
-            this.label10.Text = "Codigo:";
             // 
             // label9
             // 
@@ -356,8 +356,9 @@
             this.BtnNuevoVehiculo.Name = "BtnNuevoVehiculo";
             this.BtnNuevoVehiculo.Size = new System.Drawing.Size(94, 44);
             this.BtnNuevoVehiculo.TabIndex = 0;
-            this.BtnNuevoVehiculo.Text = "Nuevo";
+            this.BtnNuevoVehiculo.Text = "Limpiar";
             this.BtnNuevoVehiculo.UseVisualStyleBackColor = true;
+            this.BtnNuevoVehiculo.Click += new System.EventHandler(this.BtnNuevoVehiculo_Click);
             // 
             // BtnRegistrar
             // 
@@ -367,6 +368,7 @@
             this.BtnRegistrar.TabIndex = 1;
             this.BtnRegistrar.Text = "Registrar";
             this.BtnRegistrar.UseVisualStyleBackColor = true;
+            this.BtnRegistrar.Click += new System.EventHandler(this.BtnRegistrar_Click);
             // 
             // BtnModificar
             // 
@@ -376,6 +378,7 @@
             this.BtnModificar.TabIndex = 17;
             this.BtnModificar.Text = "Modificar";
             this.BtnModificar.UseVisualStyleBackColor = true;
+            this.BtnModificar.Click += new System.EventHandler(this.BtnModificar_Click);
             // 
             // BtnDarDeBaja
             // 
@@ -392,8 +395,9 @@
             this.BtnBuscarVehiculo.Name = "BtnBuscarVehiculo";
             this.BtnBuscarVehiculo.Size = new System.Drawing.Size(94, 44);
             this.BtnBuscarVehiculo.TabIndex = 19;
-            this.BtnBuscarVehiculo.Text = "Buscar";
+            this.BtnBuscarVehiculo.Text = "Buscar Vehiculo";
             this.BtnBuscarVehiculo.UseVisualStyleBackColor = true;
+            this.BtnBuscarVehiculo.Click += new System.EventHandler(this.BtnBuscarVehiculo_Click);
             // 
             // TxtPatenteBuscar
             // 
@@ -413,13 +417,112 @@
             this.label14.TabIndex = 33;
             this.label14.Text = "Patente:";
             // 
-            // DGVehiculos
+            // dBMantencionDataSet
             // 
-            this.DGVehiculos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGVehiculos.Location = new System.Drawing.Point(32, 358);
-            this.DGVehiculos.Name = "DGVehiculos";
-            this.DGVehiculos.Size = new System.Drawing.Size(722, 175);
-            this.DGVehiculos.TabIndex = 34;
+            this.dBMantencionDataSet.DataSetName = "DBMantencionDataSet";
+            this.dBMantencionDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // vehiculoBindingSource
+            // 
+            this.vehiculoBindingSource.DataMember = "Vehiculo";
+            this.vehiculoBindingSource.DataSource = this.dBMantencionDataSet;
+            // 
+            // vehiculoTableAdapter
+            // 
+            this.vehiculoTableAdapter.ClearBeforeFill = true;
+            // 
+            // vehiculoBindingSource1
+            // 
+            this.vehiculoBindingSource1.DataMember = "Vehiculo";
+            this.vehiculoBindingSource1.DataSource = this.dBMantencionDataSet;
+            // 
+            // GVVehiculos
+            // 
+            this.GVVehiculos.AutoGenerateColumns = false;
+            this.GVVehiculos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.GVVehiculos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.patenteDataGridViewTextBoxColumn,
+            this.marcaDataGridViewTextBoxColumn,
+            this.colorDataGridViewTextBoxColumn,
+            this.modeloDataGridViewTextBoxColumn,
+            this.motorDataGridViewTextBoxColumn,
+            this.chasisDataGridViewTextBoxColumn,
+            this.metrajeDataGridViewTextBoxColumn,
+            this.anioDataGridViewTextBoxColumn,
+            this.conductoridDataGridViewTextBoxColumn});
+            this.GVVehiculos.DataSource = this.vehiculoBindingSource2;
+            this.GVVehiculos.Location = new System.Drawing.Point(32, 357);
+            this.GVVehiculos.Name = "GVVehiculos";
+            this.GVVehiculos.Size = new System.Drawing.Size(722, 174);
+            this.GVVehiculos.TabIndex = 34;
+            // 
+            // dBMantencionDataSet1
+            // 
+            this.dBMantencionDataSet1.DataSetName = "DBMantencionDataSet1";
+            this.dBMantencionDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // vehiculoBindingSource2
+            // 
+            this.vehiculoBindingSource2.DataMember = "Vehiculo";
+            this.vehiculoBindingSource2.DataSource = this.dBMantencionDataSet1;
+            // 
+            // vehiculoTableAdapter1
+            // 
+            this.vehiculoTableAdapter1.ClearBeforeFill = true;
+            // 
+            // patenteDataGridViewTextBoxColumn
+            // 
+            this.patenteDataGridViewTextBoxColumn.DataPropertyName = "Patente";
+            this.patenteDataGridViewTextBoxColumn.HeaderText = "Patente";
+            this.patenteDataGridViewTextBoxColumn.Name = "patenteDataGridViewTextBoxColumn";
+            // 
+            // marcaDataGridViewTextBoxColumn
+            // 
+            this.marcaDataGridViewTextBoxColumn.DataPropertyName = "Marca";
+            this.marcaDataGridViewTextBoxColumn.HeaderText = "Marca";
+            this.marcaDataGridViewTextBoxColumn.Name = "marcaDataGridViewTextBoxColumn";
+            // 
+            // colorDataGridViewTextBoxColumn
+            // 
+            this.colorDataGridViewTextBoxColumn.DataPropertyName = "Color";
+            this.colorDataGridViewTextBoxColumn.HeaderText = "Color";
+            this.colorDataGridViewTextBoxColumn.Name = "colorDataGridViewTextBoxColumn";
+            // 
+            // modeloDataGridViewTextBoxColumn
+            // 
+            this.modeloDataGridViewTextBoxColumn.DataPropertyName = "Modelo";
+            this.modeloDataGridViewTextBoxColumn.HeaderText = "Modelo";
+            this.modeloDataGridViewTextBoxColumn.Name = "modeloDataGridViewTextBoxColumn";
+            // 
+            // motorDataGridViewTextBoxColumn
+            // 
+            this.motorDataGridViewTextBoxColumn.DataPropertyName = "Motor";
+            this.motorDataGridViewTextBoxColumn.HeaderText = "Motor";
+            this.motorDataGridViewTextBoxColumn.Name = "motorDataGridViewTextBoxColumn";
+            // 
+            // chasisDataGridViewTextBoxColumn
+            // 
+            this.chasisDataGridViewTextBoxColumn.DataPropertyName = "Chasis";
+            this.chasisDataGridViewTextBoxColumn.HeaderText = "Chasis";
+            this.chasisDataGridViewTextBoxColumn.Name = "chasisDataGridViewTextBoxColumn";
+            // 
+            // metrajeDataGridViewTextBoxColumn
+            // 
+            this.metrajeDataGridViewTextBoxColumn.DataPropertyName = "Metraje";
+            this.metrajeDataGridViewTextBoxColumn.HeaderText = "Metraje";
+            this.metrajeDataGridViewTextBoxColumn.Name = "metrajeDataGridViewTextBoxColumn";
+            // 
+            // anioDataGridViewTextBoxColumn
+            // 
+            this.anioDataGridViewTextBoxColumn.DataPropertyName = "Anio";
+            this.anioDataGridViewTextBoxColumn.HeaderText = "Anio";
+            this.anioDataGridViewTextBoxColumn.Name = "anioDataGridViewTextBoxColumn";
+            // 
+            // conductoridDataGridViewTextBoxColumn
+            // 
+            this.conductoridDataGridViewTextBoxColumn.DataPropertyName = "Conductor_id";
+            this.conductoridDataGridViewTextBoxColumn.HeaderText = "Conductor_id";
+            this.conductoridDataGridViewTextBoxColumn.Name = "conductoridDataGridViewTextBoxColumn";
             // 
             // IngresoVehiculos
             // 
@@ -431,13 +534,19 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "IngresoVehiculos";
             this.Text = "IngresoVehiculos";
+            this.Load += new System.EventHandler(this.IngresoVehiculos_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.IngresoVehiculos_MouseDown);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.DGVehiculos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dBMantencionDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vehiculoBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vehiculoBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GVVehiculos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dBMantencionDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vehiculoBindingSource2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -460,16 +569,14 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox TxtAnio;
+        private System.Windows.Forms.TextBox TxtMetraje;
         private System.Windows.Forms.TextBox TxtChasis;
         private System.Windows.Forms.TextBox TxtMotor;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox TxtNombreCliente;
+        private System.Windows.Forms.TextBox TxtRut;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button BtnNuevoVehiculo;
         private System.Windows.Forms.Button BtnModificar;
@@ -478,6 +585,22 @@
         private System.Windows.Forms.Button BtnBuscarVehiculo;
         private System.Windows.Forms.TextBox TxtPatenteBuscar;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.DataGridView DGVehiculos;
+        private DBMantencionDataSet dBMantencionDataSet;
+        private System.Windows.Forms.BindingSource vehiculoBindingSource;
+        private DBMantencionDataSetTableAdapters.VehiculoTableAdapter vehiculoTableAdapter;
+        private System.Windows.Forms.BindingSource vehiculoBindingSource1;
+        private System.Windows.Forms.DataGridView GVVehiculos;
+        private DBMantencionDataSet1 dBMantencionDataSet1;
+        private System.Windows.Forms.BindingSource vehiculoBindingSource2;
+        private DBMantencionDataSet1TableAdapters.VehiculoTableAdapter vehiculoTableAdapter1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn patenteDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn marcaDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colorDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn modeloDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn motorDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn chasisDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn metrajeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn anioDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn conductoridDataGridViewTextBoxColumn;
     }
 }
