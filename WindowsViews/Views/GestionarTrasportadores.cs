@@ -13,10 +13,18 @@ namespace WindowsViews.Views
 {
     public partial class GestionarTrasportadores : Form
     {
-        public GestionarTrasportadores(string Descripcion)
+
+
+        public GestionarTrasportadores(string descripcion)
         {
+            
             InitializeComponent();
-            LblMensaje.Text = Descripcion;
+            LblNombre.Text = descripcion;
+
+        }
+
+        public GestionarTrasportadores()
+        {
         }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -191,6 +199,8 @@ namespace WindowsViews.Views
             if (MessageBox.Show("Estas Seguro que deseas cerrar sesion?", "Warning",
                 MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
                 this.Close();
+            Login Logeo = new Login();
+            Logeo.Show();
         }
     }
 }

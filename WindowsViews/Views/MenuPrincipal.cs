@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using WindowsViews.Views;
 
 
 
@@ -110,18 +111,25 @@ namespace WindowsViews
 
         private void BtnGestionMaquinas_Click(object sender, EventArgs e)
         {
-            
-            AbrirLogeoMaquinasInPanel(new Login());
+            this.Close();
+            GestionarMaquinaria GestionMaquinas = new GestionarMaquinaria();
+            GestionMaquinas.Show();
+            this.Close();
         }
 
         private void BtnGestionVehiculos_Click(object sender, EventArgs e)
         {
-            AbrirLogeoMaquinasInPanel(new Login());
+            this.Close();
+            GestionarVehiculos  Vehiculo = new GestionarVehiculos();
+            Vehiculo.Show();
+            
         }
 
         private void BtnGestionTrasportadores_Click(object sender, EventArgs e)
         {
-            AbrirLogeoMaquinasInPanel(new Login());
+            this.Close();
+            GestionarTrasportadores Trasportadores = new GestionarTrasportadores();
+            Trasportadores.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -129,7 +137,8 @@ namespace WindowsViews
             if (MessageBox.Show("Estas Seguro que deseas cerrar sesion?", "Warning",
                 MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
                 this.Close();
-            
+            Login Logeo = new Login();
+            Logeo.Show();
         }
     }
 }

@@ -47,10 +47,7 @@ namespace WindowsViews
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
-        private void Logout(object sender, FormClosedEventArgs e)
-        {
-            
-        }
+        
 
         public void logear(string Username ,string Contrasenia)
         {

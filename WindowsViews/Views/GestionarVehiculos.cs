@@ -14,12 +14,17 @@ namespace WindowsViews.Views
 {
     public partial class GestionarVehiculos : Form
     {
-        public GestionarVehiculos(string Descripcion)
+        
+
+        public GestionarVehiculos(string descripcion)
         {
             InitializeComponent();
-            LblMensaje.Text = Descripcion;
+            LblNombre.Text = descripcion;
         }
 
+        public GestionarVehiculos()
+        {
+        }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
@@ -138,6 +143,8 @@ namespace WindowsViews.Views
             if (MessageBox.Show("Estas Seguro que deseas cerrar sesion?", "Warning",
                 MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
                 this.Close();
+            Login Logeo = new Login();
+            Logeo.Show();
         }
     }
 }
