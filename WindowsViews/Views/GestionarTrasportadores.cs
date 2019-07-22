@@ -13,9 +13,10 @@ namespace WindowsViews.Views
 {
     public partial class GestionarTrasportadores : Form
     {
-        public GestionarTrasportadores()
+        public GestionarTrasportadores(string Descripcion)
         {
             InitializeComponent();
+            LblMensaje.Text = Descripcion;
         }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -183,6 +184,13 @@ namespace WindowsViews.Views
         private void IcoCerrar_Click_1(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Estas Seguro que deseas cerrar sesion?", "Warning",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+                this.Close();
         }
     }
 }

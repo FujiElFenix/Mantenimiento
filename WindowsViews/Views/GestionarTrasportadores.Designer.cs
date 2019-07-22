@@ -46,6 +46,9 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.LblUsuario = new System.Windows.Forms.Button();
+            this.LblMensaje = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.MenuVertical.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -61,6 +64,9 @@
             // MenuVertical
             // 
             this.MenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.MenuVertical.Controls.Add(this.button4);
+            this.MenuVertical.Controls.Add(this.LblMensaje);
+            this.MenuVertical.Controls.Add(this.LblUsuario);
             this.MenuVertical.Controls.Add(this.panel3);
             this.MenuVertical.Controls.Add(this.panel2);
             this.MenuVertical.Controls.Add(this.button1);
@@ -271,6 +277,54 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // LblUsuario
+            // 
+            this.LblUsuario.FlatAppearance.BorderSize = 0;
+            this.LblUsuario.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.LblUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LblUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.LblUsuario.ForeColor = System.Drawing.Color.White;
+            this.LblUsuario.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.LblUsuario.Location = new System.Drawing.Point(0, 557);
+            this.LblUsuario.Name = "LblUsuario";
+            this.LblUsuario.Size = new System.Drawing.Size(159, 40);
+            this.LblUsuario.TabIndex = 8;
+            this.LblUsuario.Text = "Usuario: ";
+            this.LblUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.LblUsuario.UseVisualStyleBackColor = true;
+            // 
+            // LblMensaje
+            // 
+            this.LblMensaje.FlatAppearance.BorderSize = 0;
+            this.LblMensaje.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.LblMensaje.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LblMensaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.LblMensaje.ForeColor = System.Drawing.Color.White;
+            this.LblMensaje.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.LblMensaje.Location = new System.Drawing.Point(95, 534);
+            this.LblMensaje.Name = "LblMensaje";
+            this.LblMensaje.Size = new System.Drawing.Size(89, 40);
+            this.LblMensaje.TabIndex = 9;
+            this.LblMensaje.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.LblMensaje.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(0, 591);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(352, 40);
+            this.button4.TabIndex = 10;
+            this.button4.Text = "Cerrar Sesion";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // GestionarTrasportadores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -316,5 +370,8 @@
         private System.Windows.Forms.PictureBox IcoRestaurar;
         private System.Windows.Forms.PictureBox IcoMaximizar;
         private System.Windows.Forms.PictureBox IcoCerrar;
+        private System.Windows.Forms.Button LblUsuario;
+        private System.Windows.Forms.Button LblMensaje;
+        private System.Windows.Forms.Button button4;
     }
 }

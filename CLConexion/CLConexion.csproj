@@ -49,39 +49,42 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Conductor.cs">
-      <DependentUpon>DBMantenimiento.tt</DependentUpon>
+      <DependentUpon>DBMantencion.tt</DependentUpon>
     </Compile>
-    <Compile Include="DBMantenimiento.Context.cs">
+    <Compile Include="DBMantencion.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DBMantenimiento.Context.tt</DependentUpon>
+      <DependentUpon>DBMantencion.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="DBMantenimiento.cs">
+    <Compile Include="DBMantencion.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DBMantenimiento.tt</DependentUpon>
+      <DependentUpon>DBMantencion.tt</DependentUpon>
     </Compile>
-    <Compile Include="DBMantenimiento.Designer.cs">
+    <Compile Include="DBMantencion.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DBMantenimiento.edmx</DependentUpon>
+      <DependentUpon>DBMantencion.edmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Servicios.cs">
-      <DependentUpon>DBMantenimiento.tt</DependentUpon>
+      <DependentUpon>DBMantencion.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario.cs">
+      <DependentUpon>DBMantencion.tt</DependentUpon>
     </Compile>
     <Compile Include="Vehiculo.cs">
-      <DependentUpon>DBMantenimiento.tt</DependentUpon>
+      <DependentUpon>DBMantencion.tt</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
-    <EntityDeploy Include="DBMantenimiento.edmx">
+    <EntityDeploy Include="DBMantencion.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>DBMantenimiento.Designer.cs</LastGenOutput>
+      <LastGenOutput>DBMantencion.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="DBMantenimiento.edmx.diagram">
-      <DependentUpon>DBMantenimiento.edmx</DependentUpon>
+    <None Include="DBMantencion.edmx.diagram">
+      <DependentUpon>DBMantencion.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
@@ -89,15 +92,15 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DBMantenimiento.Context.tt">
+    <Content Include="DBMantencion.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>DBMantenimiento.edmx</DependentUpon>
-      <LastGenOutput>DBMantenimiento.Context.cs</LastGenOutput>
+      <DependentUpon>DBMantencion.edmx</DependentUpon>
+      <LastGenOutput>DBMantencion.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="DBMantenimiento.tt">
+    <Content Include="DBMantencion.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>DBMantenimiento.edmx</DependentUpon>
-      <LastGenOutput>DBMantenimiento.cs</LastGenOutput>
+      <DependentUpon>DBMantencion.edmx</DependentUpon>
+      <LastGenOutput>DBMantencion.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

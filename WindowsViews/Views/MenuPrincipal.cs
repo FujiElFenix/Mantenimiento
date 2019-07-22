@@ -17,9 +17,11 @@ namespace WindowsViews
     {
        
 
-        public MenuPrincipal()
+        public MenuPrincipal(string descripcion)
         {
             InitializeComponent();
+            LblNombre.Text = descripcion;
+
         }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -122,6 +124,12 @@ namespace WindowsViews
             AbrirLogeoMaquinasInPanel(new Login());
         }
 
-       
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Estas Seguro que deseas cerrar sesion?", "Warning",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+                this.Close();
+            
+        }
     }
 }

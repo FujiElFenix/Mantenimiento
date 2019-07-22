@@ -14,9 +14,10 @@ namespace WindowsViews
 {
     public partial class GestionarMaquinaria : Form
     {
-        public GestionarMaquinaria()
+        public GestionarMaquinaria(string Descripcion)
         {
             InitializeComponent();
+            LblMensaje.Text = Descripcion;
         }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -132,6 +133,13 @@ namespace WindowsViews
         private void button3_Click(object sender, EventArgs e)
         {
             AbrirLogeoMaquinasInPanel(new ListadoMaquinaria());
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Estas Seguro que deseas cerrar sesion?", "Warning",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+                this.Close();
         }
     }
 

@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuPrincipal));
             this.MenuVertical = new System.Windows.Forms.Panel();
+            this.LblNombre = new System.Windows.Forms.Button();
+            this.LblInicio = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -45,6 +47,7 @@
             this.IcoCerrar = new System.Windows.Forms.PictureBox();
             this.FlechaIzq = new System.Windows.Forms.PictureBox();
             this.panelContenedor = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
             this.MenuVertical.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -59,6 +62,9 @@
             // MenuVertical
             // 
             this.MenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.MenuVertical.Controls.Add(this.button4);
+            this.MenuVertical.Controls.Add(this.LblNombre);
+            this.MenuVertical.Controls.Add(this.LblInicio);
             this.MenuVertical.Controls.Add(this.panel4);
             this.MenuVertical.Controls.Add(this.panel3);
             this.MenuVertical.Controls.Add(this.panel2);
@@ -69,8 +75,37 @@
             this.MenuVertical.Dock = System.Windows.Forms.DockStyle.Left;
             this.MenuVertical.Location = new System.Drawing.Point(0, 0);
             this.MenuVertical.Name = "MenuVertical";
-            this.MenuVertical.Size = new System.Drawing.Size(352, 634);
+            this.MenuVertical.Size = new System.Drawing.Size(332, 634);
             this.MenuVertical.TabIndex = 0;
+            // 
+            // LblNombre
+            // 
+            this.LblNombre.FlatAppearance.BorderSize = 0;
+            this.LblNombre.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.LblNombre.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.LblNombre.ForeColor = System.Drawing.Color.White;
+            this.LblNombre.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.LblNombre.Location = new System.Drawing.Point(146, 545);
+            this.LblNombre.Name = "LblNombre";
+            this.LblNombre.Size = new System.Drawing.Size(159, 40);
+            this.LblNombre.TabIndex = 8;
+            this.LblNombre.UseVisualStyleBackColor = true;
+            // 
+            // LblInicio
+            // 
+            this.LblInicio.FlatAppearance.BorderSize = 0;
+            this.LblInicio.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.LblInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LblInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.LblInicio.ForeColor = System.Drawing.Color.White;
+            this.LblInicio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.LblInicio.Location = new System.Drawing.Point(0, 545);
+            this.LblInicio.Name = "LblInicio";
+            this.LblInicio.Size = new System.Drawing.Size(159, 40);
+            this.LblInicio.TabIndex = 6;
+            this.LblInicio.Text = "Administrador: ";
+            this.LblInicio.UseVisualStyleBackColor = true;
             // 
             // panel4
             // 
@@ -166,9 +201,9 @@
             this.panel1.Controls.Add(this.IcoCerrar);
             this.panel1.Controls.Add(this.FlechaIzq);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(352, 0);
+            this.panel1.Location = new System.Drawing.Point(332, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(804, 50);
+            this.panel1.Size = new System.Drawing.Size(824, 50);
             this.panel1.TabIndex = 1;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
@@ -189,7 +224,7 @@
             this.IcoRestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.IcoRestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.IcoRestaurar.Image = ((System.Drawing.Image)(resources.GetObject("IcoRestaurar.Image")));
-            this.IcoRestaurar.Location = new System.Drawing.Point(710, 4);
+            this.IcoRestaurar.Location = new System.Drawing.Point(730, 4);
             this.IcoRestaurar.Name = "IcoRestaurar";
             this.IcoRestaurar.Size = new System.Drawing.Size(37, 37);
             this.IcoRestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -203,7 +238,7 @@
             this.IcoMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.IcoMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.IcoMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("IcoMinimizar.Image")));
-            this.IcoMinimizar.Location = new System.Drawing.Point(655, 3);
+            this.IcoMinimizar.Location = new System.Drawing.Point(675, 3);
             this.IcoMinimizar.Name = "IcoMinimizar";
             this.IcoMinimizar.Size = new System.Drawing.Size(58, 38);
             this.IcoMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -216,7 +251,7 @@
             this.IcoMaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.IcoMaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.IcoMaximizar.Image = ((System.Drawing.Image)(resources.GetObject("IcoMaximizar.Image")));
-            this.IcoMaximizar.Location = new System.Drawing.Point(710, 3);
+            this.IcoMaximizar.Location = new System.Drawing.Point(730, 3);
             this.IcoMaximizar.Name = "IcoMaximizar";
             this.IcoMaximizar.Size = new System.Drawing.Size(37, 35);
             this.IcoMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -229,7 +264,7 @@
             this.IcoCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.IcoCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.IcoCerrar.Image = ((System.Drawing.Image)(resources.GetObject("IcoCerrar.Image")));
-            this.IcoCerrar.Location = new System.Drawing.Point(754, 3);
+            this.IcoCerrar.Location = new System.Drawing.Point(774, 3);
             this.IcoCerrar.Name = "IcoCerrar";
             this.IcoCerrar.Size = new System.Drawing.Size(38, 35);
             this.IcoCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -252,10 +287,27 @@
             // panelContenedor
             // 
             this.panelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContenedor.Location = new System.Drawing.Point(352, 50);
+            this.panelContenedor.Location = new System.Drawing.Point(332, 50);
             this.panelContenedor.Name = "panelContenedor";
-            this.panelContenedor.Size = new System.Drawing.Size(804, 584);
+            this.panelContenedor.Size = new System.Drawing.Size(824, 584);
             this.panelContenedor.TabIndex = 2;
+            // 
+            // button4
+            // 
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(0, 594);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(352, 40);
+            this.button4.TabIndex = 11;
+            this.button4.Text = "Cerrar Sesion";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // MenuPrincipal
             // 
@@ -300,5 +352,8 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button LblInicio;
+        private System.Windows.Forms.Button LblNombre;
+        private System.Windows.Forms.Button button4;
     }
 }

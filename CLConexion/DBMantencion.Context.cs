@@ -13,10 +13,10 @@ namespace CLConexion
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class DBMantencionEntities1 : DbContext
+    public partial class DBMantencionEntities2 : DbContext
     {
-        public DBMantencionEntities1()
-            : base("name=DBMantencionEntities1")
+        public DBMantencionEntities2()
+            : base("name=DBMantencionEntities2")
         {
         }
     
@@ -27,6 +27,7 @@ namespace CLConexion
     
         public DbSet<Conductor> Conductor { get; set; }
         public DbSet<Servicios> Servicios { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
         public DbSet<Vehiculo> Vehiculo { get; set; }
     }
 }
