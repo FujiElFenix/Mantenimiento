@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsViews", "WindowsView
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLConexion", "CLConexion\CLConexion.csproj", "{C78393C7-D57F-4929-AB84-595DEE2FEF5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{B95056C4-056B-4C2D-8618-6C0DF71A36AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C78393C7-D57F-4929-AB84-595DEE2FEF5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C78393C7-D57F-4929-AB84-595DEE2FEF5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C78393C7-D57F-4929-AB84-595DEE2FEF5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B95056C4-056B-4C2D-8618-6C0DF71A36AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95056C4-056B-4C2D-8618-6C0DF71A36AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95056C4-056B-4C2D-8618-6C0DF71A36AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95056C4-056B-4C2D-8618-6C0DF71A36AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

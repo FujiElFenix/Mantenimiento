@@ -46,3 +46,5 @@ C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\bin\Debug\CLConexion.dl
 C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\bin\Debug\CLConexion.pdb
 C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.Views.ServiciosVehiculo.resources
 C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\obj\Debug\WindowsViews.Views.IngresoConductor_.resources
+C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\bin\Debug\Domain.dll
+C:\Users\ffranco\Source\Repos\Mantenimiento\WindowsViews\bin\Debug\Domain.pdb

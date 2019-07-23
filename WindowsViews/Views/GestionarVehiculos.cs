@@ -19,11 +19,12 @@ namespace WindowsViews.Views
         public GestionarVehiculos(string descripcion)
         {
             InitializeComponent();
-            LblNombre.Text = descripcion;
+            
         }
 
         public GestionarVehiculos()
         {
+            InitializeComponent();
         }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -145,6 +146,14 @@ namespace WindowsViews.Views
                 this.Close();
             Login Logeo = new Login();
             Logeo.Show();
+        }
+        
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MenuPrincipal Mprincipal = new MenuPrincipal();
+            Mprincipal.Show();
+            this.Close();
         }
     }
 }

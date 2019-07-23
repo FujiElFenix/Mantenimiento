@@ -43,6 +43,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.LblMensajeError = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -69,6 +70,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Controls.Add(this.LblMensajeError);
             this.panel2.Controls.Add(this.pictureBox3);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.label3);
@@ -144,6 +146,11 @@
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.TabStop = false;
             // 
+            // LblMensajeError
+            // 
+            resources.ApplyResources(this.LblMensajeError, "LblMensajeError");
+            this.LblMensajeError.Name = "LblMensajeError";
+            // 
             // Login
             // 
             resources.ApplyResources(this, "$this");
@@ -185,5 +192,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label LblMensajeError;
     }
 }

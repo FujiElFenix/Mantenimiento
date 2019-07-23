@@ -30,7 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework">
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\WindowsViews\bin\Debug\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -47,61 +48,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Conductor.cs">
-      <DependentUpon>DBMantencion.tt</DependentUpon>
-    </Compile>
-    <Compile Include="DBMantencion.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DBMantencion.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="DBMantencion.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DBMantencion.tt</DependentUpon>
-    </Compile>
-    <Compile Include="DBMantencion.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DBMantencion.edmx</DependentUpon>
-    </Compile>
+    <Compile Include="Conexion.cs" />
+    <Compile Include="DaoUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Servicios.cs">
-      <DependentUpon>DBMantencion.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Usuario.cs">
-      <DependentUpon>DBMantencion.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Vehiculo.cs">
-      <DependentUpon>DBMantencion.tt</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
-    <EntityDeploy Include="DBMantencion.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>DBMantencion.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="DBMantencion.edmx.diagram">
-      <DependentUpon>DBMantencion.edmx</DependentUpon>
-    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="DBMantencion.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>DBMantencion.edmx</DependentUpon>
-      <LastGenOutput>DBMantencion.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="DBMantencion.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>DBMantencion.edmx</DependentUpon>
-      <LastGenOutput>DBMantencion.cs</LastGenOutput>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

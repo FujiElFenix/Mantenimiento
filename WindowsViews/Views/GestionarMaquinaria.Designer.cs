@@ -47,8 +47,7 @@
             this.FlechaIzq = new System.Windows.Forms.PictureBox();
             this.panelContenedor = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
-            this.LblNombre = new System.Windows.Forms.Button();
-            this.LblInicio = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.MenuVertical.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -64,8 +63,7 @@
             // MenuVertical
             // 
             this.MenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.MenuVertical.Controls.Add(this.LblNombre);
-            this.MenuVertical.Controls.Add(this.LblInicio);
+            this.MenuVertical.Controls.Add(this.button5);
             this.MenuVertical.Controls.Add(this.button4);
             this.MenuVertical.Controls.Add(this.panel4);
             this.MenuVertical.Controls.Add(this.panel3);
@@ -282,42 +280,30 @@
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(-6, 591);
+            this.button4.Location = new System.Drawing.Point(0, 591);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(352, 40);
+            this.button4.Size = new System.Drawing.Size(346, 40);
             this.button4.TabIndex = 11;
             this.button4.Text = "Cerrar Sesion";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // LblNombre
+            // button5
             // 
-            this.LblNombre.FlatAppearance.BorderSize = 0;
-            this.LblNombre.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.LblNombre.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.LblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.LblNombre.ForeColor = System.Drawing.Color.White;
-            this.LblNombre.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.LblNombre.Location = new System.Drawing.Point(131, 545);
-            this.LblNombre.Name = "LblNombre";
-            this.LblNombre.Size = new System.Drawing.Size(159, 40);
-            this.LblNombre.TabIndex = 15;
-            this.LblNombre.UseVisualStyleBackColor = true;
-            // 
-            // LblInicio
-            // 
-            this.LblInicio.FlatAppearance.BorderSize = 0;
-            this.LblInicio.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.LblInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.LblInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.LblInicio.ForeColor = System.Drawing.Color.White;
-            this.LblInicio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.LblInicio.Location = new System.Drawing.Point(-15, 545);
-            this.LblInicio.Name = "LblInicio";
-            this.LblInicio.Size = new System.Drawing.Size(159, 40);
-            this.LblInicio.TabIndex = 14;
-            this.LblInicio.Text = "Usuario: ";
-            this.LblInicio.UseVisualStyleBackColor = true;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.Location = new System.Drawing.Point(0, 545);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(346, 40);
+            this.button5.TabIndex = 12;
+            this.button5.Text = "atrás";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // GestionarMaquinaria
             // 
@@ -365,7 +351,6 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button LblNombre;
-        private System.Windows.Forms.Button LblInicio;
+        private System.Windows.Forms.Button button5;
     }
 }

@@ -19,12 +19,13 @@ namespace WindowsViews
         public GestionarMaquinaria(string descripcion)
         {
             InitializeComponent();
-            LblNombre.Text = descripcion;
+            
 
         }
 
         public GestionarMaquinaria()
         {
+            InitializeComponent();
         }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -149,6 +150,13 @@ namespace WindowsViews
                 this.Close();
             Login Logeo = new Login();
             Logeo.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MenuPrincipal Mprincipal = new MenuPrincipal();
+            Mprincipal.Show();
+            this.Close();
         }
     }
 

@@ -21,8 +21,13 @@ namespace WindowsViews
         public MenuPrincipal(string descripcion)
         {
             InitializeComponent();
-            LblNombre.Text = descripcion;
+           
 
+        }
+
+        public MenuPrincipal()
+        {
+            InitializeComponent();
         }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -114,7 +119,7 @@ namespace WindowsViews
             this.Close();
             GestionarMaquinaria GestionMaquinas = new GestionarMaquinaria();
             GestionMaquinas.Show();
-            this.Close();
+            
         }
 
         private void BtnGestionVehiculos_Click(object sender, EventArgs e)

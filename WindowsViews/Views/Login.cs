@@ -10,6 +10,8 @@ using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Data.SqlClient;
 using WindowsViews.Views;
+using Domain;
+
 
 namespace WindowsViews
 {
@@ -65,7 +67,7 @@ namespace WindowsViews
                     this.Hide();
                     if (dt.Rows[0][1].ToString() == "administrador")
                     {
-                        new MenuPrincipal(dt.Rows[0][0].ToString()). Show();
+                        new MenuPrincipal(dt.Rows[0][0].ToString()).Show();
                     }
                     else if (dt.Rows[0][1].ToString() == "Vehiculos")
                     {
@@ -97,7 +99,32 @@ namespace WindowsViews
 
         private void BtnIngresar_Click(object sender, EventArgs e)
         {
-            logear(this.TxtUsuario.Text, this.TxtContrasenia.Text); 
+            
+            if (TxtUsuario.Text != "Username")
+            {
+                if (TxtContrasenia.Text != "Password")
+                {
+                    UserModel user = new UserModel();
+                    var validLogin = user.LoginUser(TxtUsuario.Text, TxtContrasenia.Text);
+                    if (validLogin == true)
+                    {
+                        MenuPrincipal menuprin = new MenuPrincipal();
+                        menuprin.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        msgError("Nombre De Usuario O Contraseña Incorrectos");
+                        TxtContrasenia.Clear();
+                        TxtUsuario.Focus();
+                    }
+                }
+                
+            }
+        }
+        private void msgError(string msg) {
+            LblMensajeError.Text = "    " +msg;
+            LblMensajeError.Visible = true;
         }
     }
 }

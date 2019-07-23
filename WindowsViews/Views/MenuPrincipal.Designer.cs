@@ -30,8 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuPrincipal));
             this.MenuVertical = new System.Windows.Forms.Panel();
-            this.LblNombre = new System.Windows.Forms.Button();
-            this.LblInicio = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -63,8 +61,6 @@
             // 
             this.MenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.MenuVertical.Controls.Add(this.button4);
-            this.MenuVertical.Controls.Add(this.LblNombre);
-            this.MenuVertical.Controls.Add(this.LblInicio);
             this.MenuVertical.Controls.Add(this.panel4);
             this.MenuVertical.Controls.Add(this.panel3);
             this.MenuVertical.Controls.Add(this.panel2);
@@ -77,35 +73,6 @@
             this.MenuVertical.Name = "MenuVertical";
             this.MenuVertical.Size = new System.Drawing.Size(332, 634);
             this.MenuVertical.TabIndex = 0;
-            // 
-            // LblNombre
-            // 
-            this.LblNombre.FlatAppearance.BorderSize = 0;
-            this.LblNombre.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.LblNombre.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.LblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.LblNombre.ForeColor = System.Drawing.Color.White;
-            this.LblNombre.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.LblNombre.Location = new System.Drawing.Point(146, 545);
-            this.LblNombre.Name = "LblNombre";
-            this.LblNombre.Size = new System.Drawing.Size(159, 40);
-            this.LblNombre.TabIndex = 8;
-            this.LblNombre.UseVisualStyleBackColor = true;
-            // 
-            // LblInicio
-            // 
-            this.LblInicio.FlatAppearance.BorderSize = 0;
-            this.LblInicio.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.LblInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.LblInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
-            this.LblInicio.ForeColor = System.Drawing.Color.White;
-            this.LblInicio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.LblInicio.Location = new System.Drawing.Point(0, 545);
-            this.LblInicio.Name = "LblInicio";
-            this.LblInicio.Size = new System.Drawing.Size(159, 40);
-            this.LblInicio.TabIndex = 6;
-            this.LblInicio.Text = "Administrador: ";
-            this.LblInicio.UseVisualStyleBackColor = true;
             // 
             // panel4
             // 
@@ -352,8 +319,6 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button LblInicio;
-        private System.Windows.Forms.Button LblNombre;
         private System.Windows.Forms.Button button4;
     }
 }
