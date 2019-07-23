@@ -35,7 +35,7 @@ namespace WindowsViews
 
         private void BtnSalir_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void Login_Load(object sender, EventArgs e)

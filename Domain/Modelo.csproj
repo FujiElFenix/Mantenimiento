@@ -44,9 +44,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CLConexion\CLConexion.csproj">
+    <ProjectReference Include="..\CLConexion\Vista.csproj">
       <Project>{c78393c7-d57f-4929-ab84-595dee2fef5b}</Project>
-      <Name>CLConexion</Name>
+      <Name>Vista</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

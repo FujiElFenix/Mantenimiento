@@ -5,9 +5,9 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsViews", "WindowsViews\WindowsViews.csproj", "{B35B88D0-EEF0-4494-9568-F91D8E7AF7B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLConexion", "CLConexion\CLConexion.csproj", "{C78393C7-D57F-4929-AB84-595DEE2FEF5B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vista", "CLConexion\Vista.csproj", "{C78393C7-D57F-4929-AB84-595DEE2FEF5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{B95056C4-056B-4C2D-8618-6C0DF71A36AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelo", "Domain\Modelo.csproj", "{B95056C4-056B-4C2D-8618-6C0DF71A36AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -372,9 +372,9 @@
     <None Include="Resource\LogoMindugar.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Domain\Domain.csproj">
+    <ProjectReference Include="..\Domain\Modelo.csproj">
       <Project>{b95056c4-056b-4c2d-8618-6c0df71a36ab}</Project>
-      <Name>Domain</Name>
+      <Name>Modelo</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
